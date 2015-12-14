@@ -67,6 +67,7 @@ public class Menu : MonoBehaviour
             {
                 good_move = false;
                 buttons[button_index].image.color = new Color(1, 0, 0);
+                game.NegativeFeedback();
             }
         }
     }
@@ -118,6 +119,8 @@ public class Menu : MonoBehaviour
                 good_streak = false;
                 UpdateStreak(-1);
                 game.player_character.Reset();
+                if (!button_pressed)
+                    game.NegativeFeedback();
             }
             score_multiplier = 1;
         }

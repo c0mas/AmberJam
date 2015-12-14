@@ -57,6 +57,11 @@ public class Game : MonoBehaviour
         Application.targetFrameRate = 30;
     }
 
+    public void NegativeFeedback()
+    {
+        Handheld.Vibrate();
+    }
+
     public void WatchFinished()
     {
         player_character.Reset();
@@ -113,6 +118,10 @@ public class Game : MonoBehaviour
                 }
             case GameState.GettingReady:
                 {
+                    min_moves = 1;
+                    max_moves = 2;
+                    press_time = 1.5f;
+
                     level.Load();
                     readyTimer = 3.0f;
                     menu.ShowGameplay(false);
@@ -121,10 +130,6 @@ public class Game : MonoBehaviour
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
                     menu.ShowFinish(false);
-
-                    min_moves = 2;
-                    max_moves = 3;
-                    press_time = 1.5f;
 
                     level.score = 0;
                     level.streak = 1;
@@ -138,7 +143,7 @@ public class Game : MonoBehaviour
                 {
                     menu.ShowGameplay(false);
                     menu.scoreTxt.gameObject.SetActive(true);
-                    menu.gameObject.SetActive(true);
+                    menu.streakTxt.gameObject.SetActive(true);
                     menu.ShowModel(true);
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
