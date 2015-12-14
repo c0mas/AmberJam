@@ -36,6 +36,7 @@ public class Game : MonoBehaviour
     public float globeTimer = 0.0f;
     public float globeAS = 0.0f;
     public Vector3 globeAx;
+    public int high_score = 0;
 
     public AudioSource music;
 
@@ -70,7 +71,11 @@ public class Game : MonoBehaviour
         for (int i = 0; i < model_characters.Length; i++)
             model_characters[i].Reset();
         if (global_time < 0)
+        {
+            if (high_score < level.score)
+                high_score = level.score;
             SetGameState(GameState.Finish);
+        }
         else
         {
             if (max_moves < 10)
@@ -81,6 +86,10 @@ public class Game : MonoBehaviour
             if (press_time > 0.75f)
                 press_time -= 0.1f;
             level.ResetMoves();
+            if (menu.good_streak)
+                menu.UpdateStreak(1);
+            else
+                menu.UpdateStreak(-1);
             SetGameState(GameState.Watching);
         }
     }
@@ -98,6 +107,7 @@ public class Game : MonoBehaviour
                     menu.ShowCounter(-1);
                     menu.ShowStart(true);
                     menu.ShowAgain(false);
+                    menu.ShowFinish(false);
                     music.Stop();
                     break;
                 }
@@ -110,13 +120,17 @@ public class Game : MonoBehaviour
                     menu.ShowCounter(2);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
+                    menu.ShowFinish(false);
 
                     min_moves = 2;
                     max_moves = 3;
                     press_time = 1.5f;
 
                     level.score = 0;
-                    level.streak = 0;
+                    level.streak = 1;
+
+                    menu.UpdateStreak(-1);
+
                     music.Play();
                     break;
                 }
@@ -129,6 +143,7 @@ public class Game : MonoBehaviour
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
+                    menu.ShowFinish(false);
                     level.InitWatching();
                     break;
                 }
@@ -139,6 +154,7 @@ public class Game : MonoBehaviour
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
+                    menu.ShowFinish(false);
                     level.InitPlaying();
                     break;
                 }
@@ -149,6 +165,7 @@ public class Game : MonoBehaviour
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
                     menu.ShowAgain(true);
+                    menu.ShowFinish(true);
                     music.Stop();
                     break;
                 }
@@ -336,7 +353,7 @@ public class Game : MonoBehaviour
         {
             for (float y = 0; y < gridY * 2.0f; y += 1.0f)
             {
-                Vector3 pos = new Vector3(x * spacingX, -1.0f, y * spacingY);
+                Vector3 pos = new Vector3(x * spacingX, -3.0f, y * spacingY);
                 GameObject o = Instantiate(prefab, pos, Quaternion.identity) as GameObject;
                 floor[count] = o;
                 pos = new Vector3(x * spacingX, 7.0f, y * spacingY);

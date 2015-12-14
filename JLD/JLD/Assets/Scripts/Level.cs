@@ -34,7 +34,7 @@ public class Level : MonoBehaviour
     {
         current_move = 0;
         score = 0;
-        streak = 0;
+        streak = 1;
 
         ResetMoves();
     }
@@ -167,8 +167,8 @@ public class Level : MonoBehaviour
     public void InitWatching()
     {
         current_move = 0;
-        score = 0;
-        streak = 0;
+        //score = 0;
+        //streak = 0;
 
         watch = true;
 
@@ -196,5 +196,6 @@ public class Level : MonoBehaviour
         timer = game.press_time;
         game.menu.time = game.press_time;
         game.menu.SetMove(moves[current_move]);
+        game.menu.good_streak = true;
     }
 }

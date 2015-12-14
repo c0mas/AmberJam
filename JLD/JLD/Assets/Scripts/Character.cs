@@ -15,6 +15,14 @@ public class Character : MonoBehaviour
         Animator animator = gameObject.GetComponent<Animator>();
         for (int i = 1; i <= 5; i++)
             animator.SetBool("dance" + i.ToString(), false);
+        if (animation == "dance5")
+        {
+            transform.rotation = Quaternion.Euler(0, 150, 0);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
         animator.SetBool(animation, true);
     }
 

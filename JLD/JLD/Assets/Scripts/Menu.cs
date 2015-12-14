@@ -20,6 +20,9 @@ public class Menu : MonoBehaviour
     public Text t1, t2, t3;
     public Text[] ttext;
 
+    public Text text_score;
+    public Text text_high_score;
+
     public Level.Move current_move;
 
     int good_button = 0;
@@ -27,6 +30,10 @@ public class Menu : MonoBehaviour
     public float timer = 0;
     bool button_pressed = false;
     public bool good_move = false;
+
+    public int normal_score = 100;
+    public int score_multiplier = 1;
+    public bool good_streak = false;
 
     public float time;
 
@@ -45,6 +52,16 @@ public class Menu : MonoBehaviour
             {
                 good_move = true;
                 buttons[button_index].image.color = new Color(0, 1, 0);
+                if (timer < (game.press_time / 5))
+                    score_multiplier = 1;
+                else if (timer < (game.press_time / 5) * 2)
+                    score_multiplier = 2;
+                else if (timer < (game.press_time / 5) * 3)
+                    score_multiplier = 3;
+                else if (timer < (game.press_time / 5) * 4)
+                    score_multiplier = 4;
+                else
+                    score_multiplier = 5;
             }
             else
             {
@@ -63,13 +80,13 @@ public class Menu : MonoBehaviour
     {
         if (streak < 0)
         {
-            level.streak = 0;
+            level.streak = 1;
         }
         else
         {
             level.streak += streak;
         }
-        streakTxt.text = "Streak: " + level.streak.ToString();
+        streakTxt.text = "Multiplier: " + level.streak.ToString();
     }
 
     public void UpdateTime(float dt)
@@ -92,16 +109,17 @@ public class Menu : MonoBehaviour
         {
             if (good_move)
             {
-                game.level.score++;
+                game.level.score += (normal_score * score_multiplier * level.streak);
                 UpdateScore();
-                UpdateStreak(1);
                 game.player_character.SetAnimation(current_move.animation);
             }
             else
             {
+                good_streak = false;
                 UpdateStreak(-1);
                 game.player_character.Reset();
             }
+            score_multiplier = 1;
         }
     }
 
@@ -126,10 +144,25 @@ public class Menu : MonoBehaviour
                 do
                 {
                     int image_index = UnityEngine.Random.Range(0, images.Length);
-                    if (image_index != current_move.button - 1)
+                    bool image_used = false;
+                    if (i > 0)
                     {
-                        buttons[i].image.sprite = images[image_index];
-                        different_image = true;
+                        for (int j = 0; j < i; j++)
+                        {
+                            if (images[image_index] == buttons[j].image.sprite)
+                            {
+                                image_used = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (!image_used)
+                    {
+                        if (image_index != current_move.button - 1)
+                        {
+                            buttons[i].image.sprite = images[image_index];
+                            different_image = true;
+                        }
                     }
                 }
                 while (different_image == false);
@@ -181,6 +214,15 @@ public class Menu : MonoBehaviour
             else
                 ttext[i].gameObject.SetActive(false);
         }
+    }
+
+    public void ShowFinish(bool s)
+    {
+        text_score.text = "Score: " + level.score;
+        text_high_score.text = "High score: " + game.high_score;
+
+        text_score.gameObject.SetActive(s);
+        text_high_score.gameObject.SetActive(s);
     }
 
     public void PlayGame()
