@@ -108,6 +108,7 @@ public class Game : MonoBehaviour
 	
 	void Start ()
     {
+        InitFloor();
         menu.Init();
         SetGameState(GameState.WaitForStart);
 	}
@@ -142,4 +143,26 @@ public class Game : MonoBehaviour
                 }
         }
 	}
+
+    public GameObject prefab;
+    public float gridX = 5f;
+    public float gridY = 5f;
+    public float spacing = 2f;
+
+    void InitFloor()
+    {
+        Material gglow = Resources.Load("Material1", typeof(Material)) as Material;
+        for (float y = -gridY; y < gridY; y += 1.0f)
+        {
+            for (float x = -gridX; x < gridX; x += 1.0f)
+            {
+                Vector3 pos = new Vector3(x, -1.0f, y) * spacing;
+                GameObject o = Instantiate(prefab, pos, Quaternion.identity) as GameObject;
+                MeshRenderer renderer;
+                renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                renderer.material.color = new Color(Mathf.Abs(y) / gridY, Mathf.Abs(x) / gridX, 0.0f, 1.0f);
+               // renderer.material.SetColor("_Emission", Color.white);
+            }
+        }
+    }
 }
