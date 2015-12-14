@@ -21,6 +21,7 @@ public class Game : MonoBehaviour
     public int score = 1;
     GameObject[] floor = new GameObject[100];
     GameObject[] ceil = new GameObject[100];
+    GameObject[] bwall = new GameObject[100];
 
     public enum GameState
     {
@@ -156,7 +157,7 @@ public class Game : MonoBehaviour
                 Color c;
                 if (j < n)
                 {
-                    c = new Color(1.0f, 1.0f, 0.0f, 1.0f);
+                    c = new Color(0.7f, 0.7f, 0.0f, 1.0f);
                 }
                 else
                 {
@@ -168,6 +169,26 @@ public class Game : MonoBehaviour
                 renderer.material.color = c;
 
                 o = ceil[i * 10 + j];
+                renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                renderer.material.color = c;
+            }
+            for (j = 0; j < 5; j++)
+            {
+                Color c;
+                if (j < n)
+                {
+                    c = new Color(0.0f, 0.7f, 0.0f, 1.0f);
+                }
+                else
+                {
+                    c = new Color(0.0f, 0.3f, 0.0f, 1.0f);
+                }
+                GameObject o = bwall[i * 10 + 4 - j];
+                MeshRenderer renderer;
+                renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                renderer.material.color = c;
+
+                o = bwall[i * 10 + j + 5];
                 renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
                 renderer.material.color = c;
             }
@@ -197,7 +218,19 @@ public class Game : MonoBehaviour
                 ceil[count] = o;
                 o.GetComponent<Renderer>().transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), 180.0f); //.localScale = new Vector3(1.0f, -1.0f, 1.0f);
                 count++;
-               // renderer.material.SetColor("_Emission", Color.white);
+            }
+        }
+        count = 0;
+        for (float x = -gridX; x < gridX; x += 1.0f)
+        {
+            for (int iy = 0; iy < 10; iy++)
+            {
+                Vector3 pos = new Vector3(x * spacingX, iy * 0.78f - 0.35f, gridY * 2.0f * spacingY);
+                GameObject o = Instantiate(prefab, pos, Quaternion.identity) as GameObject;
+                o.GetComponent<Renderer>().transform.localScale = new Vector3(0.1f, 0.01f, 0.05f);
+                o.GetComponent<Renderer>().transform.Rotate(new Vector3(1.0f, 0.0f, 0.0f), -90.0f);
+                bwall[count] = o;
+                count++;
             }
         }
     }
