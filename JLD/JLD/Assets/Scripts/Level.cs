@@ -134,7 +134,7 @@ public class Level : MonoBehaviour
             timer = moves[current_move].time;
             game.menu.time = timer;
             game.menu.SetMove(moves[current_move]);
-            game.player_character.Reset();
+            //game.player_character.Reset();
             anim_set = false;
             anim_reset = false;
         }

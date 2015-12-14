@@ -13,7 +13,7 @@ public class Character : MonoBehaviour
     public void SetAnimation(string animation)
     {
         Animator animator = gameObject.GetComponent<Animator>();
-        for (int i = 0; i < 5; i++)
+        for (int i = 1; i <= 5; i++)
             animator.SetBool("dance" + i.ToString(), false);
         animator.SetBool(animation, true);
     }

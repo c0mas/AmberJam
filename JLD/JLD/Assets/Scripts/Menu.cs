@@ -23,7 +23,7 @@ public class Menu : MonoBehaviour
 
     int good_button = 0;
     bool buttons_visible = true;
-    public float timer;
+    public float timer = 0;
     bool button_pressed = false;
     public bool good_move = false;
 
@@ -75,7 +75,7 @@ public class Menu : MonoBehaviour
     {
         timer -= dt;
 
-        if (timer < time - game.press_time)
+        if (timer < game.press_time)
         {
             if (!buttons_visible)
             {
@@ -111,18 +111,20 @@ public class Menu : MonoBehaviour
 
         good_move = false;
 
+        timer = time;
+
         good_button = UnityEngine.Random.Range(0, buttons.Length);
         for (int i = 0; i < buttons.Length; i++)
         {
             if (i == good_button)
-                buttons[i].image.sprite = images[current_move.button];
+                buttons[i].image.sprite = images[current_move.button - 1];
             else
             {
                 bool different_image = false;
                 do
                 {
                     int image_index = UnityEngine.Random.Range(0, images.Length);
-                    if (image_index != current_move.button)
+                    if (image_index != current_move.button - 1)
                     {
                         buttons[i].image.sprite = images[image_index];
                         different_image = true;
