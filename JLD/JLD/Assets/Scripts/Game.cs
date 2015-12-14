@@ -24,8 +24,18 @@ public class Game : MonoBehaviour
     GameObject[] ceil = new GameObject[100];
     GameObject[] bwall = new GameObject[100];
 
+    public Material[] globeMaterials;
+    float[] globeOn = {0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f};
+    float[] globeOff = {0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f};
+    float[] globeDt = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
+    int[] globeSt = { 0, 0, 0, 0, 0, 0 };
+
     public float game_play_time = 120;
     public float global_time;
+
+    public float globeTimer = 0.0f;
+    public float globeAS = 0.0f;
+    public Vector3 globeAx;
 
     public AudioSource music;
 
@@ -186,6 +196,83 @@ public class Game : MonoBehaviour
                     break;
                 }
         }
+
+        int k;
+        globeTimer -= Time.deltaTime;
+        if (globeTimer < 0.0f)
+        {
+            float x = UnityEngine.Random.Range(0.0f, 1.0f);
+            float y = UnityEngine.Random.Range(0.0f, 1.0f);
+            float z = UnityEngine.Random.Range(0.0f, 1.0f);
+            globeAx = new Vector3(x, y, z);
+            globeAx.Normalize();
+            globeTimer = UnityEngine.Random.Range(1.0f, 3.0f);
+            globeAS = UnityEngine.Random.Range(1.0f, 5.0f);
+
+            if (UnityEngine.Random.Range(0.0f, 1.0f) > 0.2f)
+            {
+                for (k = 0; k < 6; k++)
+                {
+                    globeDt[k] = -1.0f;
+                    globeSt[k] = 1;
+                    if (UnityEngine.Random.Range(0.0f, 1.0f) > 0.2f)
+                    {
+                        globeOn[k] = UnityEngine.Random.Range(0.05f, 0.2f);
+                        globeOff[k] = UnityEngine.Random.Range(0.05f, 0.2f);
+                    }
+                    else
+                    {
+                        globeOn[k] = -1.0f;
+                    }
+                }
+            }
+            else
+            {
+                globeAS = UnityEngine.Random.Range(5.0f, 7.0f);
+                for (k = 0; k < 6; k++)
+                {
+                    globeDt[k] = -1.0f;
+                    globeSt[k] = 1;
+                    globeOn[k] = 5.0f;
+                    globeOff[k] = 0.0f;
+                }
+            }
+        }
+        for (k = 0; k < 6; k++)
+        {
+            if (globeOn[k] > 0.0f)
+            {
+                globeDt[k] -= Time.deltaTime;
+                if (globeDt[k] < 0.0f)
+                {
+                    if (globeSt[k] == 1)
+                    {
+                        globeSt[k] = 0;
+                        globeDt[k] = globeOff[k];
+                    }
+                    else
+                    {
+                        globeSt[k] = 1;
+                        globeDt[k] = globeOn[k];
+                    }
+                }
+                if (globeSt[k] == 1)
+                {
+                    globeMaterials[k].SetColor("_TintColor", new Color(0.5f, 0.5f, 0.5f, 0.5f));
+                }
+                else
+                {
+                    globeMaterials[k].SetColor("_TintColor", new Color(0.0f, 0.0f, 0.0f, 0.0f));
+                }
+            }
+            else
+            {
+                globeMaterials[k].SetColor("_TintColor", new Color(0.0f, 0.0f, 0.0f, 0.0f));
+            }
+        }
+
+        globe.transform.RotateAround(globeAx, globeAS * Time.deltaTime);
+
         float[] spectrum = AudioListener.GetSpectrumData(1024, 0, FFTWindow.Hamming);
         int i, j;
         for (i = 0; i < 10; i++)
