@@ -26,8 +26,8 @@ public class Game : MonoBehaviour
 	
 	void Start ()
     {
-        level.Load();
         menu.Init();
+        level.Load();
 	}
 	
 	

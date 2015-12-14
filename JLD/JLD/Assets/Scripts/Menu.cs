@@ -17,14 +17,31 @@ public class Menu : MonoBehaviour
     public Level.Move current_move;
     private bool moveFailed = false;
 
+    private bool[] buttons_to_press;
+
 	public void Init()
     {
-
+        buttons_to_press = null;
+        buttons_to_press = new bool[buttons.Length];
+        for (int i = 0; i < buttons_to_press.Length; i++)
+        {
+            buttons_to_press[i] = false;
+        }
     }
 
     public void PressButton(int button_index)
     {
-        if (button_index != current_move.button)
+        bool button_exists = false;
+        for (int i = 0; i < current_move.buttons.Length; i++)
+        {
+            if (button_index == current_move.buttons[i])
+            {
+                button_exists = true;
+                buttons_to_press[current_move.buttons[i]] = true;
+                break;
+            }
+        }
+        if (!button_exists)
         {
             //bad stuff
             moveFailed = true;
@@ -32,18 +49,42 @@ public class Menu : MonoBehaviour
             return;
         }
 
-       if (game.level.timer > (current_move.time - current_move.press_time))
+        bool all_buttons_pressed = true;
+        for (int i = 0; i < current_move.buttons.Length; i++)
         {
-            //good_stuff
-            game.player_character.SetAnimation(current_move.animation);
-  level.score += current_move.score;
-            UpdateStreak(1);
-            UpdateScore();
+            if (buttons_to_press[current_move.buttons[i]] == false)
+            {
+                all_buttons_pressed = false;
+                break;
+            }
+        }
+
+        if (game.level.timer > (current_move.time - current_move.press_time))
+        {
+            if (all_buttons_pressed)
+            {
+                //good_stuff
+                game.player_character.SetAnimation(current_move.animation);
+                level.score += current_move.score;
+                UpdateStreak(1);
+                UpdateScore();
+            }
         }
         else
         {
-            moveFailed = true;
-            UpdateStreak(-1);
+            if (all_buttons_pressed)
+            {
+                //good_stuff
+                game.player_character.SetAnimation(current_move.animation);
+                level.score += current_move.score;
+                UpdateStreak(1);
+                UpdateScore();
+            }
+            else
+            {
+                moveFailed = true;
+                UpdateStreak(-1);
+            }
         }
     }
 
@@ -88,13 +129,20 @@ public class Menu : MonoBehaviour
             c = new Color(1.0f, 0.0f, 0.0f, 0.5f);
         }
 
-        buttons[current_move.button].image.color = c;
+        for (int i = 0; i < current_move.buttons.Length; i++)
+            buttons[current_move.buttons[i]].image.color = c;
     }
 
     public void SetMove(Level.Move new_move)
     {
         current_move = new_move;
         moveFailed = false;
+
+        for (int i = 0; i < buttons_to_press.Length; i++)
+        {
+            buttons_to_press[i] = false;
+        }
+
         //TODO reset button
     }
 }
