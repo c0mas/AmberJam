@@ -11,8 +11,12 @@ public class Menu : MonoBehaviour
     public Game game;
     public Level level;
     public Button[] buttons;
+    public Button playGame;
+    public Button playAgain;
     public Text scoreTxt;
     public Text streakTxt;
+    public Text t1, t2, t3;
+    public Text[] ttext;
 
     public Level.Move current_move;
     private bool moveFailed = false;
@@ -157,5 +161,48 @@ public class Menu : MonoBehaviour
         }
 
         //TODO reset button
+    }
+
+    public void ShowGameplay(bool s)
+    {
+        foreach (Button b in buttons)
+        {
+            b.gameObject.SetActive(s);
+        }
+        scoreTxt.gameObject.SetActive(s);
+        streakTxt.gameObject.SetActive(s);
+
+    }
+
+    public void ShowStart(bool s)
+    {
+        playGame.gameObject.SetActive(s);
+    }
+
+    public void ShowAgain(bool s)
+    {
+        playAgain.gameObject.SetActive(s);
+    }
+
+    public void ShowCounter(int id)
+    {
+        int i;
+        for (i = 0; i < 3; i++)
+        {
+            if (id == i)
+                ttext[i].gameObject.SetActive(true);
+            else
+                ttext[i].gameObject.SetActive(false);
+        }
+    }
+
+    public void PlayGame()
+    {
+        game.SetGameState(Game.GameState.GettingReady);
+    }
+
+    public void PlayAgain()
+    {
+        game.SetGameState(Game.GameState.GettingReady);
     }
 }
