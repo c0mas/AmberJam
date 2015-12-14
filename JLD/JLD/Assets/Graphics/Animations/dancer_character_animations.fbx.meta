@@ -1072,7 +1072,7 @@ ModelImporter:
       name: dance1
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 24
+      lastFrame: 90
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1539,8 +1539,8 @@ ModelImporter:
     - serializedVersion: 16
       name: dance2
       takeName: Take 001
-      firstFrame: 25
-      lastFrame: 48
+      firstFrame: 91
+      lastFrame: 180
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2007,8 +2007,8 @@ ModelImporter:
     - serializedVersion: 16
       name: dance3
       takeName: Take 001
-      firstFrame: 48
-      lastFrame: 72
+      firstFrame: 181
+      lastFrame: 270
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

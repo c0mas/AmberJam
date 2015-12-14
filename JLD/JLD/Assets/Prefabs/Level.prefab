@@ -40,10 +40,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 0}
-  moves: []
+  moves:
+  - button: 4
+    animation: dance1
+    time: 2
+    press_time: 1
+    score: 1
+  - button: 1
+    animation: dance2
+    time: 2
+    press_time: 0.5
+    score: 1
+  - button: 7
+    animation: dance3
+    time: 2
+    press_time: 1
+    score: 1
+  - button: 3
+    animation: dance1
+    time: 2
+    press_time: 1
+    score: 1
+  - button: 5
+    animation: dance2
+    time: 2
+    press_time: 1
+    score: 1
   current_move: 0
   timer: 0
   anim_set: 0
+  score: 0
+  streak: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

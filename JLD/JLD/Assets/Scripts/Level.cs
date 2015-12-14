@@ -38,6 +38,34 @@ public class Level : MonoBehaviour
         game.player_character.Reset();
         game.model_character.Reset();
 
+        //generate moves
+        moves = null;
+        moves = new Move[300];
+        for (int i = 0; i < 300; i+=3)
+        {
+            moves[i] = new Move();
+            moves[i].button = 1;
+            moves[i].time = 2;
+            moves[i].animation = "dance1";
+            moves[i].press_time = 1f;
+            moves[i].score = 1;
+
+            moves[i + 1] = new Move();
+            moves[i + 1].button = 3;
+            moves[i + 1].time = 2;
+            moves[i + 1].animation = "dance2";
+            moves[i + 1].press_time = 1f;
+            moves[i + 1].score = 1;
+
+            moves[i + 2] = new Move();
+            moves[i + 2].button = 5;
+            moves[i + 2].time = 2;
+            moves[i + 2].animation = "dance3";
+            moves[i + 2].press_time = 1f;
+            moves[i + 2].score = 1;
+
+        }
+
         if (moves == null || moves.Length == 0)
             return;
 
@@ -77,7 +105,9 @@ public class Level : MonoBehaviour
         //else
         {
             timer = moves[current_move].time;
-            //TODO set moves for characters
+            game.player_character.Reset();
+            game.model_character.Reset();
+            anim_set = false;
             game.menu.SetMove(moves[current_move]);
         }
     }
