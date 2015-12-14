@@ -9,13 +9,8 @@ public class Character : MonoBehaviour
 {
     public Game game;
 
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public void SetAnimation(string animation)
+    {
+
+    }
 }

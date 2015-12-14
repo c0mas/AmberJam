@@ -29,6 +29,7 @@ public class Menu : MonoBehaviour
         if (game.level.timer < (current_move.time - current_move.press_time))
         {
             //good_stuff
+            game.player_character.SetAnimation(current_move.animation);
         }
     }
 

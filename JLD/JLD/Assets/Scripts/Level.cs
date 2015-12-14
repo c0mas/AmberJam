@@ -24,22 +24,32 @@ public class Level : MonoBehaviour
 
     public int current_move;
     public float timer;
+    public bool anim_set = false;
 
     //TODO load level here
 	public void Load()
     {
         current_move = 0;
         timer = moves[current_move].time;
-        // TODO set moves for characters
+        game.model_character.SetAnimation(moves[current_move].animation);
         game.menu.SetMove(moves[current_move]);
+        anim_set = false;
     }
 
     public void UpdateTime(float dt)
     {
         timer -= dt;
+        if (timer < moves[current_move].time - (moves[current_move].press_time / 2))
+        {
+            if (!anim_set)
+            {
+                game.model_character.SetAnimation(moves[current_move].animation);
+                anim_set = true;
+            }
+        }
         if (timer < 0)
         {
-
+            NextMove();
         }
     }
 
@@ -53,7 +63,7 @@ public class Level : MonoBehaviour
         else
         {
             timer = moves[current_move].time;
-            //TODO set moves for characters
+            anim_set = false;
             game.menu.SetMove(moves[current_move]);
         }
     }
