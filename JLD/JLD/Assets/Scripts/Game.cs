@@ -368,9 +368,9 @@ public class Game : MonoBehaviour
         {
             for (int iy = 0; iy < 10; iy++)
             {
-                Vector3 pos = new Vector3(x * spacingX, iy * 0.78f - 0.35f, gridY * 2.0f * spacingY);
+                Vector3 pos = new Vector3(x * spacingX, iy * 1.0f - 2.45f, gridY * 2.0f * spacingY);
                 GameObject o = Instantiate(prefab, pos, Quaternion.identity) as GameObject;
-                o.GetComponent<Renderer>().transform.localScale = new Vector3(0.1f, 0.01f, 0.05f);
+                o.GetComponent<Renderer>().transform.localScale = new Vector3(0.1f, 0.01f, 0.07f);
                 o.GetComponent<Renderer>().transform.Rotate(new Vector3(1.0f, 0.0f, 0.0f), -90.0f);
                 bwall[count] = o;
                 count++;
