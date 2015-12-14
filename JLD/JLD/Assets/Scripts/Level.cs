@@ -114,6 +114,12 @@ public class Level : MonoBehaviour
                 anim_reset = true;
             }
         }
+
+        if ((timer < 0.8f) && (current_move == moves.Length - 1) && (game.menu.text_prepare.gameObject.activeInHierarchy == false))
+        {
+            game.menu.text_prepare.gameObject.SetActive(true);
+            game.menu.text_wait.gameObject.SetActive(false);
+        }
         
         if (timer < 0)
         {

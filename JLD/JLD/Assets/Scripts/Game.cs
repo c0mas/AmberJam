@@ -62,6 +62,7 @@ public class Game : MonoBehaviour
     public void NegativeFeedback()
     {
         Handheld.Vibrate();
+        FailFeedback();
     }
 
     public void WatchFinished()
@@ -190,7 +191,7 @@ public class Game : MonoBehaviour
 
     public void FailFeedback()
     {
-        failTimer = 0.5f;
+        failTimer = 0.25f;
     }
 
 	void Update ()
@@ -356,7 +357,7 @@ public class Game : MonoBehaviour
         if (failTimer > 0.0f)
         {
             failTimer -= Time.deltaTime;
-            float sq = failTimer / 0.25f;
+            float sq = failTimer / 0.125f;
             float s = sq - Mathf.Floor(sq);
             Color c;
             if (s < 0.5f)

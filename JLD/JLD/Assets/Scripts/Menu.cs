@@ -23,6 +23,9 @@ public class Menu : MonoBehaviour
     public Text text_score;
     public Text text_high_score;
 
+    public Text text_wait;
+    public Text text_prepare;
+
     public Level.Move current_move;
 
     int good_button = 0;
@@ -65,7 +68,6 @@ public class Menu : MonoBehaviour
             }
             else
             {
-                game.FailFeedback();
                 good_move = false;
                 buttons[button_index].image.color = new Color(1, 0, 0);
                 game.NegativeFeedback();
@@ -196,6 +198,9 @@ public class Menu : MonoBehaviour
         {
             b.gameObject.SetActive(s);
         }
+
+        text_wait.gameObject.SetActive(s);
+        text_prepare.gameObject.SetActive(false);
     }
 
     public void ShowStart(bool s)
