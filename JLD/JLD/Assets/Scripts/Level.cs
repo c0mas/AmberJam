@@ -37,7 +37,8 @@ public class Level : MonoBehaviour
         streak = 0;
 
         game.player_character.Reset();
-        game.model_character.Reset();
+        for (int i = 0; i < game.model_characters.Length; i++)
+            game.model_characters[i].Reset();
 
         //generate moves
         moves = null;
@@ -49,7 +50,7 @@ public class Level : MonoBehaviour
             int move = 1;// UnityEngine.Random.Range(1, 6);
             moves[i].button = move;
             moves[i].animation = "dance" + move.ToString();
-            moves[i].time = game.model_character.GetMoveTime(move);
+            moves[i].time = game.model_characters[0].GetMoveTime(move);
 
         }
 
@@ -97,7 +98,8 @@ public class Level : MonoBehaviour
         {
             if (!anim_reset)
             {
-                game.model_character.Reset();
+                for (int i = 0; i < game.model_characters.Length; i++)
+                    game.model_characters[i].Reset();
                 anim_reset = true;
             }
         }
@@ -114,8 +116,11 @@ public class Level : MonoBehaviour
             else
             {
                 timer = moves[current_move].time;
-                game.model_character.Reset();
-                game.model_character.SetAnimation(moves[current_move].animation);
+                for (int i = 0; i < game.model_characters.Length; i++)
+                {
+                    game.model_characters[i].Reset();
+                    game.model_characters[i].SetAnimation(moves[current_move].animation);
+                }
                 anim_set = false;
                 anim_reset = false;
             }
@@ -156,8 +161,11 @@ public class Level : MonoBehaviour
         watch = true;
 
         game.player_character.Reset();
-        game.model_character.Reset();
-        game.model_character.SetAnimation(moves[current_move].animation);
+        for (int i = 0; i < game.model_characters.Length; i++)
+        {
+            game.model_characters[i].Reset();
+            game.model_characters[i].SetAnimation(moves[current_move].animation);
+        }
     }
 
     public void InitPlaying()
@@ -169,7 +177,8 @@ public class Level : MonoBehaviour
         watch = false;
 
         game.player_character.Reset();
-        game.model_character.Reset();
+        for (int i = 0; i < game.model_characters.Length; i++)
+            game.model_characters[i].Reset();
 
         timer = game.press_time;
         game.menu.time = game.press_time;

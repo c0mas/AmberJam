@@ -10,7 +10,7 @@ public class Game : MonoBehaviour
     public Level level;
     public Menu menu;
     public Character player_character;
-    public Character model_character;
+    public Character[] model_characters;
     public int counter = -1;
 
     private float readyTimer = 3.0f;
@@ -42,14 +42,16 @@ public class Game : MonoBehaviour
     public void WatchFinished()
     {
         player_character.Reset();
-        model_character.Reset();
+        for (int i = 0; i < model_characters.Length; i++)
+            model_characters[i].Reset();
         SetGameState(GameState.Playing);
     }
 
     public void LevelFinished()
     {
         player_character.Reset();
-        model_character.Reset();
+        for (int i = 0; i < model_characters.Length; i++)
+            model_characters[i].Reset();
         SetGameState(GameState.Finish);
     }
 
