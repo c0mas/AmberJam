@@ -16,12 +16,17 @@ public class Game : MonoBehaviour
     private float readyTimer = 3.0f;
 
     public int min_moves = 2;
-    public int max_moves = 4;
-    public float press_time = 1.2f;
+    public int max_moves = 3;
+    public float press_time = 1.5f;
     public int score = 1;
     GameObject[] floor = new GameObject[100];
     GameObject[] ceil = new GameObject[100];
     GameObject[] bwall = new GameObject[100];
+
+    public float game_play_time = 120;
+    public float global_time;
+
+    public AudioSource music;
 
     public enum GameState
     {
@@ -53,7 +58,20 @@ public class Game : MonoBehaviour
         player_character.Reset();
         for (int i = 0; i < model_characters.Length; i++)
             model_characters[i].Reset();
-        SetGameState(GameState.Finish);
+        if (global_time < 0)
+            SetGameState(GameState.Finish);
+        else
+        {
+            if (max_moves < 10)
+            {
+                min_moves++;
+                max_moves++;
+            }
+            if (press_time > 0.75f)
+                press_time -= 0.1f;
+            level.ResetMoves();
+            SetGameState(GameState.Watching);
+        }
     }
 
     public void SetGameState(GameState state)
@@ -65,9 +83,11 @@ public class Game : MonoBehaviour
             case GameState.WaitForStart:
                 {
                     menu.ShowGameplay(false);
+                    menu.ShowModel(false);
                     menu.ShowCounter(-1);
                     menu.ShowStart(true);
                     menu.ShowAgain(false);
+                    music.Stop();
                     break;
                 }
             case GameState.GettingReady:
@@ -75,14 +95,26 @@ public class Game : MonoBehaviour
                     level.Load();
                     readyTimer = 3.0f;
                     menu.ShowGameplay(false);
+                    menu.ShowModel(false);
                     menu.ShowCounter(2);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
+
+                    min_moves = 2;
+                    max_moves = 3;
+                    press_time = 1.5f;
+
+                    level.score = 0;
+                    level.streak = 0;
+                    music.Play();
                     break;
                 }
             case GameState.Watching:
                 {
                     menu.ShowGameplay(false);
+                    menu.scoreTxt.gameObject.SetActive(true);
+                    menu.gameObject.SetActive(true);
+                    menu.ShowModel(true);
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
@@ -92,6 +124,7 @@ public class Game : MonoBehaviour
             case GameState.Playing:
                 {
                     menu.ShowGameplay(true);
+                    menu.ShowModel(false);
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
@@ -101,9 +134,11 @@ public class Game : MonoBehaviour
             case GameState.Finish:
                 {
                     menu.ShowGameplay(false);
+                    menu.ShowModel(false);
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
                     menu.ShowAgain(true);
+                    music.Stop();
                     break;
                 }
         }
@@ -128,6 +163,7 @@ public class Game : MonoBehaviour
                     readyTimer -= dt;
                     counter = Mathf.FloorToInt(readyTimer);
                     menu.ShowCounter(counter);
+                    global_time = game_play_time;
                     if (readyTimer < 0)
                         SetGameState(GameState.Watching);
                     break;
@@ -135,6 +171,7 @@ public class Game : MonoBehaviour
             case GameState.Watching:
                 {
                     float dt = Time.deltaTime;
+                    global_time -= dt;
                     level.UpdateTime(dt);
                     //menu.UpdateTime(dt);
                     break;
@@ -142,6 +179,7 @@ public class Game : MonoBehaviour
             case GameState.Playing:
                 {
                     float dt = Time.deltaTime;
+                    global_time -= dt;
                     menu.UpdateTime(dt);
                     level.UpdateTime(dt);
                     break;

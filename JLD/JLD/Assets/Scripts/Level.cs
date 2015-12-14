@@ -36,18 +36,29 @@ public class Level : MonoBehaviour
         score = 0;
         streak = 0;
 
+        ResetMoves();
+    }
+
+    public void ResetMoves()
+    {
         game.player_character.Reset();
         for (int i = 0; i < game.model_characters.Length; i++)
             game.model_characters[i].Reset();
 
         //generate moves
+        current_move = 0;
         moves = null;
         int nr_moves = UnityEngine.Random.Range(game.min_moves, game.max_moves);
         moves = new Move[nr_moves];
         for (int i = 0; i < nr_moves; i++)
         {
             moves[i] = new Move();
-            int move = 1;// UnityEngine.Random.Range(1, 6);
+            int move = UnityEngine.Random.Range(1, 6);
+            if (i > 0)
+            {
+                while (move == moves[i - 1].button)
+                    move = UnityEngine.Random.Range(1, 6);
+            }
             moves[i].button = move;
             moves[i].animation = "dance" + move.ToString();
             moves[i].time = game.model_characters[0].GetMoveTime(move);
@@ -120,6 +131,7 @@ public class Level : MonoBehaviour
                 {
                     game.model_characters[i].Reset();
                     game.model_characters[i].SetAnimation(moves[current_move].animation);
+                    game.menu.model_buttons[i].image.sprite = game.menu.images[moves[current_move].button - 1];
                 }
                 anim_set = false;
                 anim_reset = false;
@@ -165,14 +177,15 @@ public class Level : MonoBehaviour
         {
             game.model_characters[i].Reset();
             game.model_characters[i].SetAnimation(moves[current_move].animation);
+            game.menu.model_buttons[i].image.sprite = game.menu.images[moves[current_move].button - 1];
         }
     }
 
     public void InitPlaying()
     {
         current_move = 0;
-        score = 0;
-        streak = 0;
+        //score = 0;
+        //streak = 0;
 
         watch = false;
 

@@ -11,6 +11,7 @@ public class Menu : MonoBehaviour
     public Game game;
     public Level level;
     public Button[] buttons;
+    public Button[] model_buttons;
     public Sprite[] images;
     public Button playGame;
     public Button playAgain;
@@ -98,6 +99,7 @@ public class Menu : MonoBehaviour
             }
             else
             {
+                UpdateStreak(-1);
                 game.player_character.Reset();
             }
         }
@@ -149,7 +151,14 @@ public class Menu : MonoBehaviour
         }
         scoreTxt.gameObject.SetActive(s);
         streakTxt.gameObject.SetActive(s);
+    }
 
+    public void ShowModel(bool s)
+    {
+        foreach (Button b in model_buttons)
+        {
+            b.gameObject.SetActive(s);
+        }
     }
 
     public void ShowStart(bool s)
