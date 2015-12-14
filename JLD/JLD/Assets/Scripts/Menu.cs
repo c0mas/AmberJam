@@ -65,6 +65,7 @@ public class Menu : MonoBehaviour
             }
             else
             {
+                game.FailFeedback();
                 good_move = false;
                 buttons[button_index].image.color = new Color(1, 0, 0);
                 game.NegativeFeedback();

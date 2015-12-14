@@ -30,6 +30,8 @@ public class Game : MonoBehaviour
     float[] globeDt = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
     int[] globeSt = { 0, 0, 0, 0, 0, 0 };
 
+    float failTimer = -1.0f;
+
     public float game_play_time = 120;
     public float global_time;
 
@@ -186,6 +188,11 @@ public class Game : MonoBehaviour
         SetGameState(GameState.WaitForStart);
 	}
 
+    public void FailFeedback()
+    {
+        failTimer = 0.5f;
+    }
+
 	void Update ()
     {
         switch (mState)
@@ -295,53 +302,95 @@ public class Game : MonoBehaviour
 
         globe.transform.RotateAround(globeAx, globeAS * Time.deltaTime);
 
-        float[] spectrum = AudioListener.GetSpectrumData(1024, 0, FFTWindow.Hamming);
         int i, j;
-        for (i = 0; i < 10; i++)
+        if (failTimer <= 0.0f)
         {
-            float n = spectrum[i * 2] * 30.0f;
-            for (j = 0; j < 10; j++)
+            float[] spectrum = AudioListener.GetSpectrumData(1024, 0, FFTWindow.Hamming);
+           
+            for (i = 0; i < 10; i++)
             {
-                Color c;
-                if (j < n - 1.0f)
+                float n = spectrum[i * 2] * 30.0f;
+                for (j = 0; j < 10; j++)
                 {
-                    c = new Color(0.7f, 0.7f, 0.0f, 1.0f);
-                }
-                else
-                {
-                    c = new Color(0.3f, 0.3f, 0.0f, 1.0f);
-                }
-                GameObject o = floor[i * 10 + j];
-                MeshRenderer renderer;
-                renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
-                renderer.material.color = c;
+                    Color c;
+                    if (j < n - 1.0f)
+                    {
+                        c = new Color(0.7f, 0.7f, 0.0f, 1.0f);
+                    }
+                    else
+                    {
+                        c = new Color(0.3f, 0.3f, 0.0f, 1.0f);
+                    }
+                    GameObject o = floor[i * 10 + j];
+                    MeshRenderer renderer;
+                    renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                    renderer.material.color = c;
 
-                o = ceil[i * 10 + j];
+                    o = ceil[i * 10 + j];
+                    renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                    renderer.material.color = c;
+                }
+            
+                for (j = 0; j < 5; j++)
+                {
+                    Color c;
+                    if (j < n - 1.0f)
+                    {
+                        c = new Color(0.0f, 0.7f, 0.0f, 1.0f);
+                    }
+                    else
+                    {
+                        c = new Color(0.0f, 0.3f, 0.0f, 1.0f);
+                    }
+                    GameObject o = bwall[i * 10 + 4 - j];
+                    MeshRenderer renderer;
+                    renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                    renderer.material.color = c;
+
+                    o = bwall[i * 10 + j + 5];
+                    renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                    renderer.material.color = c;
+                }
+            }
+        }
+        if (failTimer > 0.0f)
+        {
+            failTimer -= Time.deltaTime;
+            float sq = failTimer / 0.25f;
+            float s = sq - Mathf.Floor(sq);
+            Color c;
+            if (s < 0.5f)
+            {
+                c = new Color(0.3f, 0.0f, 0.0f, 1.0f);
+            }
+            else
+            {
+                c = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+            }
+            for (j = 0; j < 100; j++)
+            {
+                GameObject o = floor[j];
+                MeshRenderer renderer;
                 renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
                 renderer.material.color = c;
             }
-            for (j = 0; j < 5; j++)
+            for (j = 0; j < 100; j++)
             {
-                Color c;
-                if (j < n - 1.0f)
-                {
-                    c = new Color(0.0f, 0.7f, 0.0f, 1.0f);
-                }
-                else
-                {
-                    c = new Color(0.0f, 0.3f, 0.0f, 1.0f);
-                }
-                GameObject o = bwall[i * 10 + 4 - j];
+                GameObject o = ceil[j];
                 MeshRenderer renderer;
                 renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
                 renderer.material.color = c;
-
-                o = bwall[i * 10 + j + 5];
+            }
+            for (j = 0; j < 100; j++)
+            {
+                GameObject o = bwall[j];
+                MeshRenderer renderer;
                 renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
                 renderer.material.color = c;
             }
         }
 	}
+
 
     public GameObject prefab;
     public float gridX = 5f;
