@@ -46,7 +46,7 @@ public class Level : MonoBehaviour
         for (int i = 0; i < nr_moves; i++)
         {
             moves[i] = new Move();
-            int move = 1;// UnityEngine.Random.Range(1, 5);
+            int move = 1;// UnityEngine.Random.Range(1, 6);
             moves[i].button = move;
             moves[i].animation = "dance" + move.ToString();
             moves[i].time = game.model_character.GetMoveTime(move);
@@ -108,9 +108,10 @@ public class Level : MonoBehaviour
             if (current_move >= moves.Length)
             {
                 current_move--;
+                watch = false;
                 game.WatchFinished();
             }
-            //else
+            else
             {
                 timer = moves[current_move].time;
                 game.model_character.Reset();

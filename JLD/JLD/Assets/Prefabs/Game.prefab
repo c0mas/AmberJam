@@ -10210,7 +10210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 11444742}
-  last_animation: 
 --- !u!114 &11412188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10581,8 +10580,8 @@ MonoBehaviour:
   player_character: {fileID: 11407216}
   model_character: {fileID: 11461498}
   counter: -1
-  min_moves: 2
-  max_moves: 4
+  min_moves: 3
+  max_moves: 3
   press_time: 1.2
   score: 1
   mState: 0
@@ -10658,22 +10657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 11444742}
-  moves:
-  - button: 0
-    animation: dance1
-    time: 2
-  - button: 0
-    animation: dance2
-    time: 2
-  - button: 0
-    animation: dance3
-    time: 2
-  - button: 0
-    animation: dance1
-    time: 2
-  - button: 0
-    animation: dance2
-    time: 2
+  moves: []
   current_move: 0
   timer: 0
   anim_set: 0
@@ -10761,7 +10745,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 11444742}
-  last_animation: 
 --- !u!114 &11469580
 MonoBehaviour:
   m_ObjectHideFlags: 1
