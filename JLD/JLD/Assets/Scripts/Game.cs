@@ -12,6 +12,12 @@ public class Game : MonoBehaviour
     public Character player_character;
     public Character model_character;
 
+    public void Awake()
+    {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 30;
+    }
+
     public void LevelFinished()
     {
         player_character.Reset();

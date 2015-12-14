@@ -45,21 +45,21 @@ public class Level : MonoBehaviour
         {
             moves[i] = new Move();
             moves[i].button = 1;
-            moves[i].time = 2;
+            moves[i].time = 2.4f;
             moves[i].animation = "dance1";
             moves[i].press_time = 1f;
             moves[i].score = 1;
 
             moves[i + 1] = new Move();
             moves[i + 1].button = 3;
-            moves[i + 1].time = 2;
+            moves[i + 1].time = 2.4f;
             moves[i + 1].animation = "dance2";
             moves[i + 1].press_time = 1f;
             moves[i + 1].score = 1;
 
             moves[i + 2] = new Move();
             moves[i + 2].button = 5;
-            moves[i + 2].time = 2;
+            moves[i + 2].time = 2.4f;
             moves[i + 2].animation = "dance3";
             moves[i + 2].press_time = 1f;
             moves[i + 2].score = 1;
