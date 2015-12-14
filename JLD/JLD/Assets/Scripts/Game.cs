@@ -15,10 +15,16 @@ public class Game : MonoBehaviour
 
     private float readyTimer = 3.0f;
 
+    public int min_moves = 2;
+    public int max_moves = 4;
+    public float press_time = 1.2f;
+    public int score = 1;
+
     public enum GameState
     {
         WaitForStart,
         GettingReady,
+        Watching,
         Playing,
         Finish
     }
@@ -31,10 +37,18 @@ public class Game : MonoBehaviour
         Application.targetFrameRate = 30;
     }
 
+    public void WatchFinished()
+    {
+        player_character.Reset();
+        model_character.Reset();
+        SetGameState(GameState.Playing);
+    }
+
     public void LevelFinished()
     {
         player_character.Reset();
         model_character.Reset();
+        SetGameState(GameState.Finish);
     }
 
     public void SetGameState(GameState state)
@@ -55,10 +69,19 @@ public class Game : MonoBehaviour
                 {
                     level.Load();
                     readyTimer = 3.0f;
-                    menu.ShowGameplay(true);
+                    menu.ShowGameplay(false);
                     menu.ShowCounter(2);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
+                    break;
+                }
+            case GameState.Watching:
+                {
+                    menu.ShowGameplay(false);
+                    menu.ShowCounter(-1);
+                    menu.ShowStart(false);
+                    menu.ShowAgain(false);
+                    level.InitWatching();
                     break;
                 }
             case GameState.Playing:
@@ -67,6 +90,7 @@ public class Game : MonoBehaviour
                     menu.ShowCounter(-1);
                     menu.ShowStart(false);
                     menu.ShowAgain(false);
+                    level.InitPlaying();
                     break;
                 }
             case GameState.Finish:
@@ -99,14 +123,21 @@ public class Game : MonoBehaviour
                     counter = Mathf.FloorToInt(readyTimer);
                     menu.ShowCounter(counter);
                     if (readyTimer < 0)
-                        SetGameState(GameState.Playing);
+                        SetGameState(GameState.Watching);
+                    break;
+                }
+            case GameState.Watching:
+                {
+                    float dt = Time.deltaTime;
+                    level.UpdateTime(dt);
+                    //menu.UpdateTime(dt);
                     break;
                 }
             case GameState.Playing:
                 {
                     float dt = Time.deltaTime;
-                    level.UpdateTime(dt);
                     menu.UpdateTime(dt);
+                    level.UpdateTime(dt);
                     break;
                 }
         }

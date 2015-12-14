@@ -27,4 +27,10 @@ public class Character : MonoBehaviour
             animator.SetBool(last_animation, false);
         last_animation = "";
     }
+
+    public float GetMoveTime(int move)
+    {
+        Animator animator = gameObject.GetComponent<Animator>();
+        return animator.runtimeAnimatorController.animationClips[move].length;
+    }
 }

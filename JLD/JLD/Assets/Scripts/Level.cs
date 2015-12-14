@@ -11,11 +11,9 @@ public class Level : MonoBehaviour
     [Serializable]
     public struct Move
     {
-        public int[] buttons;
+        public int button;
         public string animation;
         public float time;
-        public float press_time;
-        public int score;
     }
 
 
@@ -29,6 +27,8 @@ public class Level : MonoBehaviour
     public int score;
     public int streak;
 
+    public bool watch = false;
+
     //TODO load level here
 	public void Load()
     {
@@ -41,47 +41,45 @@ public class Level : MonoBehaviour
 
         //generate moves
         moves = null;
-        moves = new Move[300];
-        for (int i = 0; i < 300; i++)
+        int nr_moves = UnityEngine.Random.Range(game.min_moves, game.max_moves);
+        moves = new Move[nr_moves];
+        for (int i = 0; i < nr_moves; i++)
         {
             moves[i] = new Move();
-            moves[i].buttons = new int[1];
-            moves[i].buttons[0] = UnityEngine.Random.Range(0, game.menu.buttons.Length);
-            moves[i].time = UnityEngine.Random.Range(2.2f, 3.2f);
-            moves[i].animation = "dance" + UnityEngine.Random.Range(1, 5).ToString();
-            moves[i].press_time = 1f;
-            moves[i].score = 1;
+            int move = 1;// UnityEngine.Random.Range(1, 5);
+            moves[i].button = move;
+            moves[i].animation = "dance" + move.ToString();
+            moves[i].time = game.model_character.GetMoveTime(move);
+
         }
 
         if (moves == null || moves.Length == 0)
             return;
 
         timer = moves[current_move].time;
-        game.menu.SetMove(moves[current_move]);
         anim_set = false;
         anim_reset = false;
     }
 
     public void UpdateTime(float dt)
     {
+        if (watch)
+            UpdateWatch(dt);
+        else
+            UpdatePlay(dt);
+    }
+
+    public void UpdatePlay(float dt)
+    {
         if (moves == null || moves.Length == 0)
             return;
 
         timer -= dt;
-        if (timer < moves[current_move].time - (moves[current_move].press_time / 2))
-        {
-            if (!anim_set)
-            {
-                game.model_character.SetAnimation(moves[current_move].animation);
-                anim_set = true;
-            } 
-        }
-        if (timer < moves[current_move].time - (moves[current_move].press_time + 0.1f))
+        if (timer < game.menu.time - 0.1f)
         {
             if (!anim_reset)
             {
                 game.player_character.Reset();
-                game.model_character.Reset();
                 anim_reset = true;
             }
         }
@@ -91,22 +89,82 @@ public class Level : MonoBehaviour
         }
     }
 
+
+    public void UpdateWatch(float dt)
+    {
+        timer -= dt;
+        if (timer < moves[current_move].time - (moves[current_move].time / 2))
+        {
+            if (!anim_reset)
+            {
+                game.model_character.Reset();
+                anim_reset = true;
+            }
+        }
+        
+        if (timer < 0)
+        {
+            current_move++;
+            if (current_move >= moves.Length)
+            {
+                current_move--;
+                game.WatchFinished();
+            }
+            //else
+            {
+                timer = moves[current_move].time;
+                game.model_character.Reset();
+                game.model_character.SetAnimation(moves[current_move].animation);
+                anim_set = false;
+                anim_reset = false;
+            }
+        }
+    }
+
     void NextMove()
     {
         current_move++;
         if (current_move >= moves.Length)
         {
-            current_move--;
             game.LevelFinished();
         }
-        //else
+        else
         {
             timer = moves[current_move].time;
+            game.menu.time = timer;
+            game.menu.SetMove(moves[current_move]);
             game.player_character.Reset();
-            game.model_character.Reset();
             anim_set = false;
             anim_reset = false;
-            game.menu.SetMove(moves[current_move]);
         }
+    }
+
+    public void InitWatching()
+    {
+        current_move = 0;
+        score = 0;
+        streak = 0;
+
+        watch = true;
+
+        game.player_character.Reset();
+        game.model_character.Reset();
+        game.model_character.SetAnimation(moves[current_move].animation);
+    }
+
+    public void InitPlaying()
+    {
+        current_move = 0;
+        score = 0;
+        streak = 0;
+
+        watch = false;
+
+        game.player_character.Reset();
+        game.model_character.Reset();
+
+        timer = game.press_time;
+        game.menu.time = game.press_time;
+        game.menu.SetMove(moves[current_move]);
     }
 }

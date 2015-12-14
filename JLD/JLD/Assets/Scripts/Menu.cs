@@ -11,6 +11,7 @@ public class Menu : MonoBehaviour
     public Game game;
     public Level level;
     public Button[] buttons;
+    public Sprite[] images;
     public Button playGame;
     public Button playAgain;
     public Text scoreTxt;
@@ -19,76 +20,35 @@ public class Menu : MonoBehaviour
     public Text[] ttext;
 
     public Level.Move current_move;
-    private bool moveFailed = false;
 
-    private bool[] buttons_to_press;
+    int good_button = 0;
+    bool buttons_visible = true;
+    public float timer;
+    bool button_pressed = false;
+    public bool good_move = false;
+
+    public float time;
+
 
 	public void Init()
     {
-        buttons_to_press = null;
-        buttons_to_press = new bool[buttons.Length];
-        for (int i = 0; i < buttons_to_press.Length; i++)
-        {
-            buttons_to_press[i] = false;
-        }
+        
     }
 
     public void PressButton(int button_index)
     {
-        bool button_exists = false;
-        for (int i = 0; i < current_move.buttons.Length; i++)
+        if (!button_pressed)
         {
-            if (button_index == current_move.buttons[i])
+            button_pressed = true;
+            if (button_index == good_button)
             {
-                button_exists = true;
-                if (game.level.timer > (current_move.time - current_move.press_time))
-                    buttons_to_press[current_move.buttons[i]] = true;
-                break;
-            }
-        }
-        if (!button_exists)
-        {
-            //bad stuff
-            moveFailed = true;
-            UpdateStreak(-1);
-            return;
-        }
-
-        bool all_buttons_pressed = true;
-        for (int i = 0; i < current_move.buttons.Length; i++)
-        {
-            if (buttons_to_press[current_move.buttons[i]] == false)
-            {
-                all_buttons_pressed = false;
-                break;
-            }
-        }
-
-        if (game.level.timer > (current_move.time - current_move.press_time))
-        {
-            if (all_buttons_pressed)
-            {
-                //good_stuff
-                game.player_character.SetAnimation(current_move.animation);
-                level.score += current_move.score;
-                UpdateStreak(1);
-                UpdateScore();
-            }
-        }
-        else
-        {
-            if (all_buttons_pressed)
-            {
-                //good_stuff
-                game.player_character.SetAnimation(current_move.animation);
-                level.score += current_move.score;
-                UpdateStreak(1);
-                UpdateScore();
+                good_move = true;
+                buttons[button_index].image.color = new Color(0, 1, 0);
             }
             else
             {
-                moveFailed = true;
-                UpdateStreak(-1);
+                good_move = false;
+                buttons[button_index].image.color = new Color(1, 0, 0);
             }
         }
     }
@@ -113,54 +73,70 @@ public class Menu : MonoBehaviour
 
     public void UpdateTime(float dt)
     {
-        Color c = new Color(1.0f, 1.0f, 1.0f, 0.25f);
-        foreach(Button b in buttons)
+        timer -= dt;
+
+        if (timer < time - game.press_time)
         {
-            b.image.color = c;
-        }
-        if (game.level.timer < (current_move.time - current_move.press_time))
-        {
-            for (int i = 0; i < current_move.buttons.Length; i++)
+            if (!buttons_visible)
             {
-                if (buttons_to_press[current_move.buttons[i]] == false)
+                buttons_visible = true;
+                foreach (Button b in buttons)
                 {
-                    moveFailed = true;
-                    break;
+                    b.image.color = new Color(1, 1, 1);
+                    b.gameObject.SetActive(true);
                 }
             }
         }
-        if (!moveFailed)
+        if (timer < 0)
         {
-            if (game.level.timer > (current_move.time - current_move.press_time))
+            if (good_move)
             {
-                float procent = (current_move.time - level.timer) / current_move.press_time;
-                float alpha = procent * 2.0f;
-                if (alpha > 1.0f)
-                    alpha = 2.0f - alpha;
-                c = new Color(0.0f, 1.0f, 0.0f, 0.25f + alpha * (0.75f / 0.5f)); //alpha;
+                game.level.score++;
+                UpdateScore();
+                UpdateStreak(1);
+                game.player_character.SetAnimation(current_move.animation);
+            }
+            else
+            {
+                game.player_character.Reset();
             }
         }
-        else
-        {
-            UpdateStreak(-1);
-            c = new Color(1.0f, 0.0f, 0.0f, 0.5f);
-        }
-
-        for (int i = 0; i < current_move.buttons.Length; i++)
-            buttons[current_move.buttons[i]].image.color = c;
     }
 
     public void SetMove(Level.Move new_move)
     {
         current_move = new_move;
-        moveFailed = false;
 
-        for (int i = 0; i < buttons_to_press.Length; i++)
+        button_pressed = false;
+
+        good_move = false;
+
+        good_button = UnityEngine.Random.Range(0, buttons.Length);
+        for (int i = 0; i < buttons.Length; i++)
         {
-            buttons_to_press[i] = false;
+            if (i == good_button)
+                buttons[i].image.sprite = images[current_move.button];
+            else
+            {
+                bool different_image = false;
+                do
+                {
+                    int image_index = UnityEngine.Random.Range(0, images.Length);
+                    if (image_index != current_move.button)
+                    {
+                        buttons[i].image.sprite = images[image_index];
+                        different_image = true;
+                    }
+                }
+                while (different_image == false);
+            }
         }
 
-        //TODO reset button
+        buttons_visible = false;
+        foreach (Button b in buttons)
+            b.gameObject.SetActive(false);
+
+        UpdateScore();
     }
 
     public void ShowGameplay(bool s)
