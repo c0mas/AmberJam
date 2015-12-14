@@ -127,7 +127,14 @@ public class Level : MonoBehaviour
         current_move++;
         if (current_move >= moves.Length)
         {
-            game.LevelFinished();
+            if (current_move == moves.Length)
+            {
+                timer = moves[current_move - 1].time;
+                game.menu.time = 1000;
+                game.menu.SetMove(moves[current_move - 1]);
+            }
+            else
+                game.LevelFinished();
         }
         else
         {
