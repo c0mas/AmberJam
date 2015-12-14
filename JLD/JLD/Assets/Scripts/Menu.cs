@@ -37,7 +37,8 @@ public class Menu : MonoBehaviour
             if (button_index == current_move.buttons[i])
             {
                 button_exists = true;
-                buttons_to_press[current_move.buttons[i]] = true;
+                if (game.level.timer > (current_move.time - current_move.press_time))
+                    buttons_to_press[current_move.buttons[i]] = true;
                 break;
             }
         }
@@ -108,10 +109,21 @@ public class Menu : MonoBehaviour
 
     public void UpdateTime(float dt)
     {
-     Color c = new Color(1.0f, 1.0f, 1.0f, 0.25f);
+        Color c = new Color(1.0f, 1.0f, 1.0f, 0.25f);
         foreach(Button b in buttons)
         {
             b.image.color = c;
+        }
+        if (game.level.timer < (current_move.time - current_move.press_time))
+        {
+            for (int i = 0; i < current_move.buttons.Length; i++)
+            {
+                if (buttons_to_press[current_move.buttons[i]] == false)
+                {
+                    moveFailed = true;
+                    break;
+                }
+            }
         }
         if (!moveFailed)
         {
@@ -126,6 +138,7 @@ public class Menu : MonoBehaviour
         }
         else
         {
+            UpdateStreak(-1);
             c = new Color(1.0f, 0.0f, 0.0f, 0.5f);
         }
 
