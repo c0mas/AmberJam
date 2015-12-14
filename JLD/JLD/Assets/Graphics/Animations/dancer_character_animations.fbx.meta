@@ -1,0 +1,2517 @@
+fileFormatVersion: 2
+guid: 5a925de99fc8fa54ca7373017610770e
+timeCreated: 1450096024
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: MEIKO_arm
+    100004: MEIKO_mesh
+    100006: shadow
+    100008: shadow.001
+    100010: shadow.001_end
+    100012: shadow.001_end_end
+    100014: shadow_end
+    100016: shadow_end_end
+    100018: "\xE2_\xB3"
+    100020: "\xE3__"
+    100022: "\xE3__1"
+    100024: "\xE3__2"
+    100026: "\xE3__3"
+    100028: "\xE3__\xE3__\xE3__"
+    100030: "\xE3__\xE3__\xE3__1"
+    100032: "\xE3__\xE3__\xE3__\xEF__"
+    100034: "\xE3__\xE3__\xE3_\u0160"
+    100036: "\xE3__\xE3__\xE3_\u01601"
+    100038: "\xE3__\xE3__\xE3_\u0178\xE3__"
+    100040: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+    100042: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+    100044: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+    100046: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+    100048: "\xE3__\xE3__\xE7__"
+    100050: "\xE3__\xE3_\xB2\xE3_\xB2"
+    100052: "\xE3_\xAA\xE3__\xE3__"
+    100054: "\xE3_\xAA\xE3__\xE3__\xEF__"
+    100056: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+    100058: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+    100060: "\xE3_\xB5\xE3__\xE3__"
+    100062: "\xE3_\xB5\xE3_\xB5\xE3__"
+    100064: "\xE3_\u0152\xE3\u0192_\xE3__"
+    100066: "\xE3_\u0160"
+    100068: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+    100070: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+    100072: "\xE4__"
+    100074: "\xE4_\u0160"
+    100076: "\xE5__\xE3__"
+    100078: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+    100080: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    100082: "\xE6__\xE3_\u0160"
+    100084: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+    100086: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    100088: "\xE7__\xE3__"
+    100090: "\xE7\u0153\u0178\xE9__\xE7__"
+    100092: "\xE7\u017E\xB3\xE5__"
+    100094: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+    100096: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+    100098: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+    100100: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+    100102: "\u3064\u307E\u5148.L"
+    100104: "\u3064\u307E\u5148.L_end"
+    100106: "\u3064\u307E\u5148.L_end_end"
+    100108: "\u3064\u307E\u5148.R"
+    100110: "\u3064\u307E\u5148.R_end"
+    100112: "\u3064\u307E\u5148.R_end_end"
+    100114: "\u3064\u307E\u5148\uFF29\uFF2B.L"
+    100116: "\u3064\u307E\u5148\uFF29\uFF2B.R"
+    100118: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.L"
+    100120: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end"
+    100122: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end_end"
+    100124: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.R"
+    100126: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end"
+    100128: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end_end"
+    100130: "\u3072\u3056.L"
+    100132: "\u3072\u3056.R"
+    100134: "\u3072\u3058.L"
+    100136: "\u3072\u3058.R"
+    100138: "\u30BB\u30F3\u30BF\u30FC"
+    100140: "\u30BB\u30F3\u30BF\u30FC\u5148"
+    100142: "\u30BB\u30F3\u30BF\u30FC\u5148.001"
+    100144: "\u30BB\u30F3\u30BF\u30FC\u5148.001_end"
+    100146: "\u30BB\u30F3\u30BF\u30FC\u5148.001_end_end"
+    100148: "\u30BB\u30F3\u30BF\u30FC\u5148_end"
+    100150: "\u30BB\u30F3\u30BF\u30FC\u5148_end_end"
+    100152: "\u30D5\u30A1\u30B9\u30CA"
+    100154: "\u30D5\u30A1\u30B9\u30CA\u30FC\u5148"
+    100156: "\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end"
+    100158: "\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end_end"
+    100160: "\u4E0A\u534A\u8EAB"
+    100162: "\u4E0B\u534A\u8EAB"
+    100164: "\u4E0B\u534A\u8EAB\u5148"
+    100166: "\u4E0B\u534A\u8EAB\u5148_end"
+    100168: "\u4E0B\u534A\u8EAB\u5148_end_end"
+    100170: "\u4E21\u76EE"
+    100172: "\u4E21\u76EE\u5148"
+    100174: "\u4E21\u76EE\u5148_end"
+    100176: "\u4E21\u76EE\u5148_end_end"
+    100178: "\u4E2D\u6307\u5148.L"
+    100180: "\u4E2D\u6307\u5148.L_end"
+    100182: "\u4E2D\u6307\u5148.L_end_end"
+    100184: "\u4E2D\u6307\u5148.R"
+    100186: "\u4E2D\u6307\u5148.R_end"
+    100188: "\u4E2D\u6307\u5148.R_end_end"
+    100190: "\u4E2D\u6307\uFF11.L"
+    100192: "\u4E2D\u6307\uFF11.R"
+    100194: "\u4E2D\u6307\uFF12.L"
+    100196: "\u4E2D\u6307\uFF12.R"
+    100198: "\u4E2D\u6307\uFF13.L"
+    100200: "\u4E2D\u6307\uFF13.R"
+    100202: "\u4EBA\u6307\u6307\u5148.L"
+    100204: "\u4EBA\u6307\u6307\u5148.L_end"
+    100206: "\u4EBA\u6307\u6307\u5148.L_end_end"
+    100208: "\u4EBA\u6307\u6307\u5148.R"
+    100210: "\u4EBA\u6307\u6307\u5148.R_end"
+    100212: "\u4EBA\u6307\u6307\u5148.R_end_end"
+    100214: "\u4EBA\u6307\uFF11.L"
+    100216: "\u4EBA\u6307\uFF11.R"
+    100218: "\u4EBA\u6307\uFF12.L"
+    100220: "\u4EBA\u6307\uFF12.R"
+    100222: "\u4EBA\u6307\uFF13.L"
+    100224: "\u4EBA\u6307\uFF13.R"
+    100226: "\u524D\u9AEA\uFF11"
+    100228: "\u524D\u9AEA\uFF11\u5148"
+    100230: "\u524D\u9AEA\uFF11\u5148_end"
+    100232: "\u524D\u9AEA\uFF11\u5148_end_end"
+    100234: "\u524D\u9AEA\uFF12\u5148"
+    100236: "\u524D\u9AEA\uFF12\u5148_end"
+    100238: "\u524D\u9AEA\uFF12\u5148_end_end"
+    100240: "\u524D\u9AEA\uFF13"
+    100242: "\u5C0F\u6307\u5148.L"
+    100244: "\u5C0F\u6307\u5148.L_end"
+    100246: "\u5C0F\u6307\u5148.L_end_end"
+    100248: "\u5C0F\u6307\u5148.R"
+    100250: "\u5C0F\u6307\u5148.R_end"
+    100252: "\u5C0F\u6307\u5148.R_end_end"
+    100254: "\u5C0F\u6307\uFF11.L"
+    100256: "\u5C0F\u6307\uFF11.R"
+    100258: "\u5C0F\u6307\uFF12.L"
+    100260: "\u5C0F\u6307\uFF12.R"
+    100262: "\u5C0F\u6307\uFF13.L"
+    100264: "\u5C0F\u6307\uFF13.R"
+    100266: "\u5F8C\u9AEA"
+    100268: "\u5F8C\u9AEA\u5148"
+    100270: "\u5F8C\u9AEA\u5148_end"
+    100272: "\u5F8C\u9AEA\u5148_end_end"
+    100274: "\u624B\u5148.L"
+    100276: "\u624B\u5148.L_end"
+    100278: "\u624B\u5148.L_end_end"
+    100280: "\u624B\u5148.R"
+    100282: "\u624B\u5148.R_end"
+    100284: "\u624B\u5148.R_end_end"
+    100286: "\u624B\u9996.L"
+    100288: "\u624B\u9996.R"
+    100290: "\u76EE.L"
+    100292: "\u76EE.R"
+    100294: "\u76EE\u5148.L"
+    100296: "\u76EE\u5148.L_end"
+    100298: "\u76EE\u5148.L_end_end"
+    100300: "\u76EE\u5148.R"
+    100302: "\u76EE\u5148.R_end"
+    100304: "\u76EE\u5148.R_end_end"
+    100306: "\u76EE\u5149.L"
+    100308: "\u76EE\u5149.R"
+    100310: "\u76EE\u5149\u5148.L"
+    100312: "\u76EE\u5149\u5148.L_end"
+    100314: "\u76EE\u5149\u5148.L_end_end"
+    100316: "\u76EE\u5149\u5148.R"
+    100318: "\u76EE\u5149\u5148.R_end"
+    100320: "\u76EE\u5149\u5148.R_end_end"
+    100322: "\u80A9.L"
+    100324: "\u80A9.R"
+    100326: "\u80F8.L"
+    100328: "\u80F8.R"
+    100330: "\u80F8\u5148.L"
+    100332: "\u80F8\u5148.L_end"
+    100334: "\u80F8\u5148.L_end_end"
+    100336: "\u80F8\u5148.R"
+    100338: "\u80F8\u5148.R_end"
+    100340: "\u80F8\u5148.R_end_end"
+    100342: "\u8155.L"
+    100344: "\u8155.R"
+    100346: "\u85AC\u6307\u5148.L"
+    100348: "\u85AC\u6307\u5148.L_end"
+    100350: "\u85AC\u6307\u5148.L_end_end"
+    100352: "\u85AC\u6307\u5148.R"
+    100354: "\u85AC\u6307\u5148.R_end"
+    100356: "\u85AC\u6307\u5148.R_end_end"
+    100358: "\u85AC\u6307\uFF11.L"
+    100360: "\u85AC\u6307\uFF11.R"
+    100362: "\u85AC\u6307\uFF12.L"
+    100364: "\u85AC\u6307\uFF12.R"
+    100366: "\u85AC\u6307\uFF13.L"
+    100368: "\u85AC\u6307\uFF13.R"
+    100370: "\u89AA\u6307\u5148.L"
+    100372: "\u89AA\u6307\u5148.L_end"
+    100374: "\u89AA\u6307\u5148.L_end_end"
+    100376: "\u89AA\u6307\u5148.R"
+    100378: "\u89AA\u6307\u5148.R_end"
+    100380: "\u89AA\u6307\u5148.R_end_end"
+    100382: "\u89AA\u6307\uFF11.L"
+    100384: "\u89AA\u6307\uFF11.R"
+    100386: "\u89AA\u6307\uFF12.L"
+    100388: "\u89AA\u6307\uFF12.R"
+    100390: "\u8DB3.L"
+    100392: "\u8DB3.R"
+    100394: "\u8DB3\u9996.L"
+    100396: "\u8DB3\u9996.R"
+    100398: "\u8DB3\uFF29\uFF2B.L"
+    100400: "\u8DB3\uFF29\uFF2B.R"
+    100402: "\u8DB3\uFF29\uFF2B\u5148.L"
+    100404: "\u8DB3\uFF29\uFF2B\u5148.L_end"
+    100406: "\u8DB3\uFF29\uFF2B\u5148.L_end_end"
+    100408: "\u8DB3\uFF29\uFF2B\u5148.R"
+    100410: "\u8DB3\uFF29\uFF2B\u5148.R_end"
+    100412: "\u8DB3\uFF29\uFF2B\u5148.R_end_end"
+    100414: "\u982D"
+    100416: "\u982D\u5148"
+    100418: "\u982D\u5148_end"
+    100420: "\u982D\u5148_end_end"
+    100422: "\u9996"
+    100424: "\u9AEA.L"
+    100426: "\u9AEA.R"
+    100428: "\u9AEA\u5148.L"
+    100430: "\u9AEA\u5148.L_end"
+    100432: "\u9AEA\u5148.L_end_end"
+    100434: "\u9AEA\u5148.R"
+    100436: "\u9AEA\u5148.R_end"
+    100438: "\u9AEA\u5148.R_end_end"
+    400000: //RootNode
+    400002: MEIKO_arm
+    400004: MEIKO_mesh
+    400006: shadow
+    400008: shadow.001
+    400010: shadow.001_end
+    400012: shadow.001_end_end
+    400014: shadow_end
+    400016: shadow_end_end
+    400018: "\xE2_\xB3"
+    400020: "\xE3__"
+    400022: "\xE3__1"
+    400024: "\xE3__2"
+    400026: "\xE3__3"
+    400028: "\xE3__\xE3__\xE3__"
+    400030: "\xE3__\xE3__\xE3__1"
+    400032: "\xE3__\xE3__\xE3__\xEF__"
+    400034: "\xE3__\xE3__\xE3_\u0160"
+    400036: "\xE3__\xE3__\xE3_\u01601"
+    400038: "\xE3__\xE3__\xE3_\u0178\xE3__"
+    400040: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+    400042: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+    400044: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+    400046: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+    400048: "\xE3__\xE3__\xE7__"
+    400050: "\xE3__\xE3_\xB2\xE3_\xB2"
+    400052: "\xE3_\xAA\xE3__\xE3__"
+    400054: "\xE3_\xAA\xE3__\xE3__\xEF__"
+    400056: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+    400058: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+    400060: "\xE3_\xB5\xE3__\xE3__"
+    400062: "\xE3_\xB5\xE3_\xB5\xE3__"
+    400064: "\xE3_\u0152\xE3\u0192_\xE3__"
+    400066: "\xE3_\u0160"
+    400068: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+    400070: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+    400072: "\xE4__"
+    400074: "\xE4_\u0160"
+    400076: "\xE5__\xE3__"
+    400078: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+    400080: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    400082: "\xE6__\xE3_\u0160"
+    400084: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+    400086: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    400088: "\xE7__\xE3__"
+    400090: "\xE7\u0153\u0178\xE9__\xE7__"
+    400092: "\xE7\u017E\xB3\xE5__"
+    400094: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+    400096: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+    400098: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+    400100: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+    400102: "\u3064\u307E\u5148.L"
+    400104: "\u3064\u307E\u5148.L_end"
+    400106: "\u3064\u307E\u5148.L_end_end"
+    400108: "\u3064\u307E\u5148.R"
+    400110: "\u3064\u307E\u5148.R_end"
+    400112: "\u3064\u307E\u5148.R_end_end"
+    400114: "\u3064\u307E\u5148\uFF29\uFF2B.L"
+    400116: "\u3064\u307E\u5148\uFF29\uFF2B.R"
+    400118: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.L"
+    400120: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end"
+    400122: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end_end"
+    400124: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.R"
+    400126: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end"
+    400128: "\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end_end"
+    400130: "\u3072\u3056.L"
+    400132: "\u3072\u3056.R"
+    400134: "\u3072\u3058.L"
+    400136: "\u3072\u3058.R"
+    400138: "\u30BB\u30F3\u30BF\u30FC"
+    400140: "\u30BB\u30F3\u30BF\u30FC\u5148"
+    400142: "\u30BB\u30F3\u30BF\u30FC\u5148.001"
+    400144: "\u30BB\u30F3\u30BF\u30FC\u5148.001_end"
+    400146: "\u30BB\u30F3\u30BF\u30FC\u5148.001_end_end"
+    400148: "\u30BB\u30F3\u30BF\u30FC\u5148_end"
+    400150: "\u30BB\u30F3\u30BF\u30FC\u5148_end_end"
+    400152: "\u30D5\u30A1\u30B9\u30CA"
+    400154: "\u30D5\u30A1\u30B9\u30CA\u30FC\u5148"
+    400156: "\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end"
+    400158: "\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end_end"
+    400160: "\u4E0A\u534A\u8EAB"
+    400162: "\u4E0B\u534A\u8EAB"
+    400164: "\u4E0B\u534A\u8EAB\u5148"
+    400166: "\u4E0B\u534A\u8EAB\u5148_end"
+    400168: "\u4E0B\u534A\u8EAB\u5148_end_end"
+    400170: "\u4E21\u76EE"
+    400172: "\u4E21\u76EE\u5148"
+    400174: "\u4E21\u76EE\u5148_end"
+    400176: "\u4E21\u76EE\u5148_end_end"
+    400178: "\u4E2D\u6307\u5148.L"
+    400180: "\u4E2D\u6307\u5148.L_end"
+    400182: "\u4E2D\u6307\u5148.L_end_end"
+    400184: "\u4E2D\u6307\u5148.R"
+    400186: "\u4E2D\u6307\u5148.R_end"
+    400188: "\u4E2D\u6307\u5148.R_end_end"
+    400190: "\u4E2D\u6307\uFF11.L"
+    400192: "\u4E2D\u6307\uFF11.R"
+    400194: "\u4E2D\u6307\uFF12.L"
+    400196: "\u4E2D\u6307\uFF12.R"
+    400198: "\u4E2D\u6307\uFF13.L"
+    400200: "\u4E2D\u6307\uFF13.R"
+    400202: "\u4EBA\u6307\u6307\u5148.L"
+    400204: "\u4EBA\u6307\u6307\u5148.L_end"
+    400206: "\u4EBA\u6307\u6307\u5148.L_end_end"
+    400208: "\u4EBA\u6307\u6307\u5148.R"
+    400210: "\u4EBA\u6307\u6307\u5148.R_end"
+    400212: "\u4EBA\u6307\u6307\u5148.R_end_end"
+    400214: "\u4EBA\u6307\uFF11.L"
+    400216: "\u4EBA\u6307\uFF11.R"
+    400218: "\u4EBA\u6307\uFF12.L"
+    400220: "\u4EBA\u6307\uFF12.R"
+    400222: "\u4EBA\u6307\uFF13.L"
+    400224: "\u4EBA\u6307\uFF13.R"
+    400226: "\u524D\u9AEA\uFF11"
+    400228: "\u524D\u9AEA\uFF11\u5148"
+    400230: "\u524D\u9AEA\uFF11\u5148_end"
+    400232: "\u524D\u9AEA\uFF11\u5148_end_end"
+    400234: "\u524D\u9AEA\uFF12\u5148"
+    400236: "\u524D\u9AEA\uFF12\u5148_end"
+    400238: "\u524D\u9AEA\uFF12\u5148_end_end"
+    400240: "\u524D\u9AEA\uFF13"
+    400242: "\u5C0F\u6307\u5148.L"
+    400244: "\u5C0F\u6307\u5148.L_end"
+    400246: "\u5C0F\u6307\u5148.L_end_end"
+    400248: "\u5C0F\u6307\u5148.R"
+    400250: "\u5C0F\u6307\u5148.R_end"
+    400252: "\u5C0F\u6307\u5148.R_end_end"
+    400254: "\u5C0F\u6307\uFF11.L"
+    400256: "\u5C0F\u6307\uFF11.R"
+    400258: "\u5C0F\u6307\uFF12.L"
+    400260: "\u5C0F\u6307\uFF12.R"
+    400262: "\u5C0F\u6307\uFF13.L"
+    400264: "\u5C0F\u6307\uFF13.R"
+    400266: "\u5F8C\u9AEA"
+    400268: "\u5F8C\u9AEA\u5148"
+    400270: "\u5F8C\u9AEA\u5148_end"
+    400272: "\u5F8C\u9AEA\u5148_end_end"
+    400274: "\u624B\u5148.L"
+    400276: "\u624B\u5148.L_end"
+    400278: "\u624B\u5148.L_end_end"
+    400280: "\u624B\u5148.R"
+    400282: "\u624B\u5148.R_end"
+    400284: "\u624B\u5148.R_end_end"
+    400286: "\u624B\u9996.L"
+    400288: "\u624B\u9996.R"
+    400290: "\u76EE.L"
+    400292: "\u76EE.R"
+    400294: "\u76EE\u5148.L"
+    400296: "\u76EE\u5148.L_end"
+    400298: "\u76EE\u5148.L_end_end"
+    400300: "\u76EE\u5148.R"
+    400302: "\u76EE\u5148.R_end"
+    400304: "\u76EE\u5148.R_end_end"
+    400306: "\u76EE\u5149.L"
+    400308: "\u76EE\u5149.R"
+    400310: "\u76EE\u5149\u5148.L"
+    400312: "\u76EE\u5149\u5148.L_end"
+    400314: "\u76EE\u5149\u5148.L_end_end"
+    400316: "\u76EE\u5149\u5148.R"
+    400318: "\u76EE\u5149\u5148.R_end"
+    400320: "\u76EE\u5149\u5148.R_end_end"
+    400322: "\u80A9.L"
+    400324: "\u80A9.R"
+    400326: "\u80F8.L"
+    400328: "\u80F8.R"
+    400330: "\u80F8\u5148.L"
+    400332: "\u80F8\u5148.L_end"
+    400334: "\u80F8\u5148.L_end_end"
+    400336: "\u80F8\u5148.R"
+    400338: "\u80F8\u5148.R_end"
+    400340: "\u80F8\u5148.R_end_end"
+    400342: "\u8155.L"
+    400344: "\u8155.R"
+    400346: "\u85AC\u6307\u5148.L"
+    400348: "\u85AC\u6307\u5148.L_end"
+    400350: "\u85AC\u6307\u5148.L_end_end"
+    400352: "\u85AC\u6307\u5148.R"
+    400354: "\u85AC\u6307\u5148.R_end"
+    400356: "\u85AC\u6307\u5148.R_end_end"
+    400358: "\u85AC\u6307\uFF11.L"
+    400360: "\u85AC\u6307\uFF11.R"
+    400362: "\u85AC\u6307\uFF12.L"
+    400364: "\u85AC\u6307\uFF12.R"
+    400366: "\u85AC\u6307\uFF13.L"
+    400368: "\u85AC\u6307\uFF13.R"
+    400370: "\u89AA\u6307\u5148.L"
+    400372: "\u89AA\u6307\u5148.L_end"
+    400374: "\u89AA\u6307\u5148.L_end_end"
+    400376: "\u89AA\u6307\u5148.R"
+    400378: "\u89AA\u6307\u5148.R_end"
+    400380: "\u89AA\u6307\u5148.R_end_end"
+    400382: "\u89AA\u6307\uFF11.L"
+    400384: "\u89AA\u6307\uFF11.R"
+    400386: "\u89AA\u6307\uFF12.L"
+    400388: "\u89AA\u6307\uFF12.R"
+    400390: "\u8DB3.L"
+    400392: "\u8DB3.R"
+    400394: "\u8DB3\u9996.L"
+    400396: "\u8DB3\u9996.R"
+    400398: "\u8DB3\uFF29\uFF2B.L"
+    400400: "\u8DB3\uFF29\uFF2B.R"
+    400402: "\u8DB3\uFF29\uFF2B\u5148.L"
+    400404: "\u8DB3\uFF29\uFF2B\u5148.L_end"
+    400406: "\u8DB3\uFF29\uFF2B\u5148.L_end_end"
+    400408: "\u8DB3\uFF29\uFF2B\u5148.R"
+    400410: "\u8DB3\uFF29\uFF2B\u5148.R_end"
+    400412: "\u8DB3\uFF29\uFF2B\u5148.R_end_end"
+    400414: "\u982D"
+    400416: "\u982D\u5148"
+    400418: "\u982D\u5148_end"
+    400420: "\u982D\u5148_end_end"
+    400422: "\u9996"
+    400424: "\u9AEA.L"
+    400426: "\u9AEA.R"
+    400428: "\u9AEA\u5148.L"
+    400430: "\u9AEA\u5148.L_end"
+    400432: "\u9AEA\u5148.L_end_end"
+    400434: "\u9AEA\u5148.R"
+    400436: "\u9AEA\u5148.R_end"
+    400438: "\u9AEA\u5148.R_end_end"
+    2300000: MEIKO_mesh
+    2300002: "\xE2_\xB3"
+    2300004: "\xE3__"
+    2300006: "\xE3__1"
+    2300008: "\xE3__2"
+    2300010: "\xE3__3"
+    2300012: "\xE3__\xE3__\xE3__"
+    2300014: "\xE3__\xE3__\xE3__1"
+    2300016: "\xE3__\xE3__\xE3__\xEF__"
+    2300018: "\xE3__\xE3__\xE3_\u0160"
+    2300020: "\xE3__\xE3__\xE3_\u01601"
+    2300022: "\xE3__\xE3__\xE3_\u0178\xE3__"
+    2300024: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+    2300026: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+    2300028: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+    2300030: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+    2300032: "\xE3__\xE3__\xE7__"
+    2300034: "\xE3__\xE3_\xB2\xE3_\xB2"
+    2300036: "\xE3_\xAA\xE3__\xE3__"
+    2300038: "\xE3_\xAA\xE3__\xE3__\xEF__"
+    2300040: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+    2300042: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+    2300044: "\xE3_\xB5\xE3__\xE3__"
+    2300046: "\xE3_\xB5\xE3_\xB5\xE3__"
+    2300048: "\xE3_\u0152\xE3\u0192_\xE3__"
+    2300050: "\xE3_\u0160"
+    2300052: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+    2300054: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+    2300056: "\xE4__"
+    2300058: "\xE4_\u0160"
+    2300060: "\xE5__\xE3__"
+    2300062: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+    2300064: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    2300066: "\xE6__\xE3_\u0160"
+    2300068: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+    2300070: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    2300072: "\xE7__\xE3__"
+    2300074: "\xE7\u0153\u0178\xE9__\xE7__"
+    2300076: "\xE7\u017E\xB3\xE5__"
+    2300078: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+    2300080: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+    2300082: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+    2300084: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+    3300000: MEIKO_mesh
+    3300002: "\xE2_\xB3"
+    3300004: "\xE3__"
+    3300006: "\xE3__1"
+    3300008: "\xE3__2"
+    3300010: "\xE3__3"
+    3300012: "\xE3__\xE3__\xE3__"
+    3300014: "\xE3__\xE3__\xE3__1"
+    3300016: "\xE3__\xE3__\xE3__\xEF__"
+    3300018: "\xE3__\xE3__\xE3_\u0160"
+    3300020: "\xE3__\xE3__\xE3_\u01601"
+    3300022: "\xE3__\xE3__\xE3_\u0178\xE3__"
+    3300024: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+    3300026: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+    3300028: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+    3300030: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+    3300032: "\xE3__\xE3__\xE7__"
+    3300034: "\xE3__\xE3_\xB2\xE3_\xB2"
+    3300036: "\xE3_\xAA\xE3__\xE3__"
+    3300038: "\xE3_\xAA\xE3__\xE3__\xEF__"
+    3300040: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+    3300042: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+    3300044: "\xE3_\xB5\xE3__\xE3__"
+    3300046: "\xE3_\xB5\xE3_\xB5\xE3__"
+    3300048: "\xE3_\u0152\xE3\u0192_\xE3__"
+    3300050: "\xE3_\u0160"
+    3300052: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+    3300054: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+    3300056: "\xE4__"
+    3300058: "\xE4_\u0160"
+    3300060: "\xE5__\xE3__"
+    3300062: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+    3300064: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    3300066: "\xE6__\xE3_\u0160"
+    3300068: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+    3300070: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    3300072: "\xE7__\xE3__"
+    3300074: "\xE7\u0153\u0178\xE9__\xE7__"
+    3300076: "\xE7\u017E\xB3\xE5__"
+    3300078: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+    3300080: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+    3300082: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+    3300084: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+    4300000: MEIKO_mesh
+    4300002: "\xE3__"
+    4300004: "\xE3__1"
+    4300006: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+    4300008: "\xE6__\xE3_\u0160"
+    4300010: "\xE3__\xE3__\xE3_\u0160"
+    4300012: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+    4300014: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    4300016: "\xE7__\xE3__"
+    4300018: "\xE3_\xAA\xE3__\xE3__\xEF__"
+    4300020: "\xE2_\xB3"
+    4300022: "\xE3__\xE3__\xE3__"
+    4300024: "\xE4__"
+    4300026: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+    4300028: "\xE3_\u0160"
+    4300030: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+    4300032: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+    4300034: "\xE5__\xE3__"
+    4300036: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+    4300038: "\xE3_\u0152\xE3\u0192_\xE3__"
+    4300040: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+    4300042: "\xE7\u017E\xB3\xE5__"
+    4300044: "\xE3_\xAA\xE3__\xE3__"
+    4300046: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+    4300048: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+    4300050: "\xE3__\xE3__\xE3__\xEF__"
+    4300052: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+    4300054: "\xE3_\xB5\xE3__\xE3__"
+    4300056: "\xE3__\xE3__\xE3_\u01601"
+    4300058: "\xE3__2"
+    4300060: "\xE3__\xE3__\xE3_\u0178\xE3__"
+    4300062: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+    4300064: "\xE3__\xE3_\xB2\xE3_\xB2"
+    4300066: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+    4300068: "\xE4_\u0160"
+    4300070: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+    4300072: "\xE3__3"
+    4300074: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+    4300076: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+    4300078: "\xE3__\xE3__\xE3__1"
+    4300080: "\xE3__\xE3__\xE7__"
+    4300082: "\xE7\u0153\u0178\xE9__\xE7__"
+    4300084: "\xE3_\xB5\xE3_\xB5\xE3__"
+    7400000: Take 001
+    7400002: dance1
+    7400004: dance2
+    7400006: dance3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MEIKO_arm
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end/\u30BB\u30F3\u30BF\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end/\u30BB\u30F3\u30BF\u30FC\u5148.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end/\u4E2D\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end/\u4EBA\u6307\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end/\u5C0F\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end/\u624B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end/\u85AC\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end/\u89AA\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end/\u4E2D\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end/\u4EBA\u6307\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end/\u5C0F\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end/\u624B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end/\u85AC\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end/\u89AA\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end/\u80F8\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end/\u80F8\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end/shadow_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end/shadow.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end/\u4E21\u76EE\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end/\u524D\u9AEA\uFF11\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end/\u524D\u9AEA\uFF12\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end/\u5F8C\u9AEA\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end/\u76EE\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end/\u76EE\u5149\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end/\u76EE\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end/\u76EE\u5149\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end/\u982D\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end/\u9AEA\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end/\u9AEA\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end/\u4E0B\u534A\u8EAB\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end/\u3064\u307E\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end/\u3064\u307E\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end/\u8DB3\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end/\u8DB3\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: MEIKO_mesh
+        weight: 1
+      - path: "\xE2_\xB3"
+        weight: 1
+      - path: "\xE3__"
+        weight: 1
+      - path: "\xE3__1"
+        weight: 1
+      - path: "\xE3__2"
+        weight: 1
+      - path: "\xE3__3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__1"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0160"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u01601"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0178\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE7__"
+        weight: 1
+      - path: "\xE3__\xE3_\xB2\xE3_\xB2"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+        weight: 1
+      - path: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+        weight: 1
+      - path: "\xE3_\xB5\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xB5\xE3_\xB5\xE3__"
+        weight: 1
+      - path: "\xE3_\u0152\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3_\u0160"
+        weight: 1
+      - path: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+        weight: 1
+      - path: "\xE4__"
+        weight: 1
+      - path: "\xE4_\u0160"
+        weight: 1
+      - path: "\xE5__\xE3__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE7__\xE3__"
+        weight: 1
+      - path: "\xE7\u0153\u0178\xE9__\xE7__"
+        weight: 1
+      - path: "\xE7\u017E\xB3\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dance1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MEIKO_arm
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end/\u30BB\u30F3\u30BF\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end/\u30BB\u30F3\u30BF\u30FC\u5148.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end/\u4E2D\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end/\u4EBA\u6307\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end/\u5C0F\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end/\u624B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end/\u85AC\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end/\u89AA\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end/\u4E2D\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end/\u4EBA\u6307\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end/\u5C0F\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end/\u624B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end/\u85AC\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end/\u89AA\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end/\u80F8\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end/\u80F8\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end/shadow_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end/shadow.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end/\u4E21\u76EE\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end/\u524D\u9AEA\uFF11\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end/\u524D\u9AEA\uFF12\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end/\u5F8C\u9AEA\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end/\u76EE\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end/\u76EE\u5149\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end/\u76EE\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end/\u76EE\u5149\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end/\u982D\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end/\u9AEA\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end/\u9AEA\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end/\u4E0B\u534A\u8EAB\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end/\u3064\u307E\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end/\u3064\u307E\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end/\u8DB3\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end/\u8DB3\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: MEIKO_mesh
+        weight: 1
+      - path: "\xE2_\xB3"
+        weight: 1
+      - path: "\xE3__"
+        weight: 1
+      - path: "\xE3__1"
+        weight: 1
+      - path: "\xE3__2"
+        weight: 1
+      - path: "\xE3__3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__1"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0160"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u01601"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0178\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE7__"
+        weight: 1
+      - path: "\xE3__\xE3_\xB2\xE3_\xB2"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+        weight: 1
+      - path: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+        weight: 1
+      - path: "\xE3_\xB5\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xB5\xE3_\xB5\xE3__"
+        weight: 1
+      - path: "\xE3_\u0152\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3_\u0160"
+        weight: 1
+      - path: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+        weight: 1
+      - path: "\xE4__"
+        weight: 1
+      - path: "\xE4_\u0160"
+        weight: 1
+      - path: "\xE5__\xE3__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE7__\xE3__"
+        weight: 1
+      - path: "\xE7\u0153\u0178\xE9__\xE7__"
+        weight: 1
+      - path: "\xE7\u017E\xB3\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dance2
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MEIKO_arm
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end/\u30BB\u30F3\u30BF\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end/\u30BB\u30F3\u30BF\u30FC\u5148.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end/\u4E2D\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end/\u4EBA\u6307\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end/\u5C0F\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end/\u624B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end/\u85AC\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end/\u89AA\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end/\u4E2D\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end/\u4EBA\u6307\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end/\u5C0F\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end/\u624B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end/\u85AC\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end/\u89AA\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end/\u80F8\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end/\u80F8\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end/shadow_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end/shadow.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end/\u4E21\u76EE\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end/\u524D\u9AEA\uFF11\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end/\u524D\u9AEA\uFF12\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end/\u5F8C\u9AEA\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end/\u76EE\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end/\u76EE\u5149\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end/\u76EE\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end/\u76EE\u5149\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end/\u982D\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end/\u9AEA\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end/\u9AEA\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end/\u4E0B\u534A\u8EAB\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end/\u3064\u307E\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end/\u3064\u307E\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end/\u8DB3\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end/\u8DB3\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: MEIKO_mesh
+        weight: 1
+      - path: "\xE2_\xB3"
+        weight: 1
+      - path: "\xE3__"
+        weight: 1
+      - path: "\xE3__1"
+        weight: 1
+      - path: "\xE3__2"
+        weight: 1
+      - path: "\xE3__3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__1"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0160"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u01601"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0178\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE7__"
+        weight: 1
+      - path: "\xE3__\xE3_\xB2\xE3_\xB2"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+        weight: 1
+      - path: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+        weight: 1
+      - path: "\xE3_\xB5\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xB5\xE3_\xB5\xE3__"
+        weight: 1
+      - path: "\xE3_\u0152\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3_\u0160"
+        weight: 1
+      - path: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+        weight: 1
+      - path: "\xE4__"
+        weight: 1
+      - path: "\xE4_\u0160"
+        weight: 1
+      - path: "\xE5__\xE3__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE7__\xE3__"
+        weight: 1
+      - path: "\xE7\u0153\u0178\xE9__\xE7__"
+        weight: 1
+      - path: "\xE7\u017E\xB3\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dance3
+      takeName: Take 001
+      firstFrame: 48
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MEIKO_arm
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148/\u30BB\u30F3\u30BF\u30FC\u5148_end/\u30BB\u30F3\u30BF\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u30BB\u30F3\u30BF\u30FC\u5148.001/\u30BB\u30F3\u30BF\u30FC\u5148.001_end/\u30BB\u30F3\u30BF\u30FC\u5148.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u30D5\u30A1\u30B9\u30CA/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end/\u30D5\u30A1\u30B9\u30CA\u30FC\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4E2D\u6307\uFF11.L/\u4E2D\u6307\uFF12.L/\u4E2D\u6307\uFF13.L/\u4E2D\u6307\u5148.L/\u4E2D\u6307\u5148.L_end/\u4E2D\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u4EBA\u6307\uFF11.L/\u4EBA\u6307\uFF12.L/\u4EBA\u6307\uFF13.L/\u4EBA\u6307\u6307\u5148.L/\u4EBA\u6307\u6307\u5148.L_end/\u4EBA\u6307\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u5C0F\u6307\uFF11.L/\u5C0F\u6307\uFF12.L/\u5C0F\u6307\uFF13.L/\u5C0F\u6307\u5148.L/\u5C0F\u6307\u5148.L_end/\u5C0F\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u624B\u5148.L/\u624B\u5148.L_end/\u624B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u85AC\u6307\uFF11.L/\u85AC\u6307\uFF12.L/\u85AC\u6307\uFF13.L/\u85AC\u6307\u5148.L/\u85AC\u6307\u5148.L_end/\u85AC\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.L/\u8155.L/\u3072\u3058.L/\u624B\u9996.L/\u89AA\u6307\uFF11.L/\u89AA\u6307\uFF12.L/\u89AA\u6307\u5148.L/\u89AA\u6307\u5148.L_end/\u89AA\u6307\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4E2D\u6307\uFF11.R/\u4E2D\u6307\uFF12.R/\u4E2D\u6307\uFF13.R/\u4E2D\u6307\u5148.R/\u4E2D\u6307\u5148.R_end/\u4E2D\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u4EBA\u6307\uFF11.R/\u4EBA\u6307\uFF12.R/\u4EBA\u6307\uFF13.R/\u4EBA\u6307\u6307\u5148.R/\u4EBA\u6307\u6307\u5148.R_end/\u4EBA\u6307\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u5C0F\u6307\uFF11.R/\u5C0F\u6307\uFF12.R/\u5C0F\u6307\uFF13.R/\u5C0F\u6307\u5148.R/\u5C0F\u6307\u5148.R_end/\u5C0F\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u624B\u5148.R/\u624B\u5148.R_end/\u624B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u85AC\u6307\uFF11.R/\u85AC\u6307\uFF12.R/\u85AC\u6307\uFF13.R/\u85AC\u6307\u5148.R/\u85AC\u6307\u5148.R_end/\u85AC\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80A9.R/\u8155.R/\u3072\u3058.R/\u624B\u9996.R/\u89AA\u6307\uFF11.R/\u89AA\u6307\uFF12.R/\u89AA\u6307\u5148.R/\u89AA\u6307\u5148.R_end/\u89AA\u6307\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.L/\u80F8\u5148.L/\u80F8\u5148.L_end/\u80F8\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u80F8.R/\u80F8\u5148.R/\u80F8\u5148.R_end/\u80F8\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow/shadow_end/shadow_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/shadow.001/shadow.001_end/shadow.001_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u4E21\u76EE/\u4E21\u76EE\u5148/\u4E21\u76EE\u5148_end/\u4E21\u76EE\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF11/\u524D\u9AEA\uFF11\u5148/\u524D\u9AEA\uFF11\u5148_end/\u524D\u9AEA\uFF11\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u524D\u9AEA\uFF13/\u524D\u9AEA\uFF12\u5148/\u524D\u9AEA\uFF12\u5148_end/\u524D\u9AEA\uFF12\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u5F8C\u9AEA/\u5F8C\u9AEA\u5148/\u5F8C\u9AEA\u5148_end/\u5F8C\u9AEA\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5148.L/\u76EE\u5148.L_end/\u76EE\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.L/\u76EE\u5149.L/\u76EE\u5149\u5148.L/\u76EE\u5149\u5148.L_end/\u76EE\u5149\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5148.R/\u76EE\u5148.R_end/\u76EE\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u76EE.R/\u76EE\u5149.R/\u76EE\u5149\u5148.R/\u76EE\u5149\u5148.R_end/\u76EE\u5149\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u982D\u5148/\u982D\u5148_end/\u982D\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.L/\u9AEA\u5148.L/\u9AEA\u5148.L_end/\u9AEA\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0A\u534A\u8EAB/\u9996/\u982D/\u9AEA.R/\u9AEA\u5148.R/\u9AEA\u5148.R_end/\u9AEA\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u4E0B\u534A\u8EAB\u5148/\u4E0B\u534A\u8EAB\u5148_end/\u4E0B\u534A\u8EAB\u5148_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.L/\u3072\u3056.L/\u8DB3\u9996.L/\u3064\u307E\u5148.L/\u3064\u307E\u5148.L_end/\u3064\u307E\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u30BB\u30F3\u30BF\u30FC/\u4E0B\u534A\u8EAB/\u8DB3.R/\u3072\u3056.R/\u8DB3\u9996.R/\u3064\u307E\u5148.R/\u3064\u307E\u5148.R_end/\u3064\u307E\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.L/\u8DB3\uFF29\uFF2B\u5148.L/\u8DB3\uFF29\uFF2B\u5148.L_end/\u8DB3\uFF29\uFF2B\u5148.L_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end/\u3064\u307E\u5148\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end"
+        weight: 1
+      - path: "MEIKO_arm/\u8DB3\uFF29\uFF2B.R/\u8DB3\uFF29\uFF2B\u5148.R/\u8DB3\uFF29\uFF2B\u5148.R_end/\u8DB3\uFF29\uFF2B\u5148.R_end_end"
+        weight: 1
+      - path: MEIKO_mesh
+        weight: 1
+      - path: "\xE2_\xB3"
+        weight: 1
+      - path: "\xE3__"
+        weight: 1
+      - path: "\xE3__1"
+        weight: 1
+      - path: "\xE3__2"
+        weight: 1
+      - path: "\xE3__3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__1"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0160"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u01601"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3_\u0178\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3__\xE3__\xE3\u0192\xB3\xE3__\xEF__\xE5_\xB3"
+        weight: 1
+      - path: "\xE3__\xE3__\xE7__"
+        weight: 1
+      - path: "\xE3__\xE3_\xB2\xE3_\xB2"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__"
+        weight: 1
+      - path: "\xE3_\xAA\xE3__\xE3__\xEF__1"
+        weight: 1
+      - path: "\xE3_\xB3\xE3__\xE3__\xE3_\u0160\xE7\u0153_"
+        weight: 1
+      - path: "\xE3_\xB5\xE3__\xE3__"
+        weight: 1
+      - path: "\xE3_\xB5\xE3_\xB5\xE3__"
+        weight: 1
+      - path: "\xE3_\u0152\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3_\u0160"
+        weight: 1
+      - path: "\xE3_\u017D\xE3_\u0192\xE3\u0192_\xE3__"
+        weight: 1
+      - path: "\xE3\u0192_\xE3__\xE3\u0192_\xEF__"
+        weight: 1
+      - path: "\xE4__"
+        weight: 1
+      - path: "\xE4_\u0160"
+        weight: 1
+      - path: "\xE5__\xE3__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE5__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE6__\xE3_\u0160\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xE7__\xE3__"
+        weight: 1
+      - path: "\xE7\u0153\u0178\xE9__\xE7__"
+        weight: 1
+      - path: "\xE7\u017E\xB3\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xE8__\xE3__\xE7__\xE3__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5__"
+        weight: 1
+      - path: "\xEF__\xEF__\xEF__\xE7\u0153_\xE5_\xB3"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,7 +14,8 @@ public class Game : MonoBehaviour
 
     public void LevelFinished()
     {
-
+        player_character.Reset();
+        model_character.Reset();
     }
 	
 	void Start ()

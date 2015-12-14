@@ -30,14 +30,23 @@ public class Level : MonoBehaviour
 	public void Load()
     {
         current_move = 0;
+       
+        game.player_character.Reset();
+        game.model_character.Reset();
+
+        if (moves == null || moves.Length == 0)
+            return;
+
         timer = moves[current_move].time;
-        game.model_character.SetAnimation(moves[current_move].animation);
         game.menu.SetMove(moves[current_move]);
         anim_set = false;
     }
 
     public void UpdateTime(float dt)
     {
+        if (moves == null || moves.Length == 0)
+            return;
+
         timer -= dt;
         if (timer < moves[current_move].time - (moves[current_move].press_time / 2))
         {
