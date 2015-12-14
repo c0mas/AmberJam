@@ -19,6 +19,8 @@ public class Game : MonoBehaviour
     public int max_moves = 4;
     public float press_time = 1.2f;
     public int score = 1;
+    GameObject[] floor = new GameObject[100];
+    GameObject[] ceil = new GameObject[100];
 
     public enum GameState
     {
@@ -142,25 +144,57 @@ public class Game : MonoBehaviour
                     break;
                 }
         }
+        float[] spectrum = AudioListener.GetSpectrumData(1024, 0, FFTWindow.Hamming);
+        int i, j;
+        for (i = 0; i < 10; i++)
+        {
+            float n = spectrum[i * 2] * 30.0f;
+            for (j = 0; j < 10; j++)
+            {
+                Color c;
+                if (j < n)
+                {
+                    c = new Color(1.0f, 1.0f, 0.0f, 1.0f);
+                }
+                else
+                {
+                    c = new Color(0.3f, 0.3f, 0.0f, 1.0f);
+                }
+                GameObject o = floor[i * 10 + j];
+                MeshRenderer renderer;
+                renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                renderer.material.color = c;
+
+                o = ceil[i * 10 + j];
+                renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
+                renderer.material.color = c;
+            }
+        }
 	}
 
     public GameObject prefab;
     public float gridX = 5f;
     public float gridY = 5f;
-    public float spacing = 2f;
+    public float spacingX = 1.3f;
+    public float spacingY = 1.5f;
 
     void InitFloor()
     {
         Material gglow = Resources.Load("Material1", typeof(Material)) as Material;
-        for (float y = -gridY; y < gridY; y += 1.0f)
+
+        int count = 0;
+        for (float x = -gridX; x < gridX; x += 1.0f)
         {
-            for (float x = -gridX; x < gridX; x += 1.0f)
+            for (float y = 0; y < gridY * 2.0f; y += 1.0f)
             {
-                Vector3 pos = new Vector3(x, -1.0f, y) * spacing;
+                Vector3 pos = new Vector3(x * spacingX, -1.0f, y * spacingY);
                 GameObject o = Instantiate(prefab, pos, Quaternion.identity) as GameObject;
-                MeshRenderer renderer;
-                renderer = o.GetComponent<MeshRenderer>() as MeshRenderer;
-                renderer.material.color = new Color(Mathf.Abs(y) / gridY, Mathf.Abs(x) / gridX, 0.0f, 1.0f);
+                floor[count] = o;
+                pos = new Vector3(x * spacingX, 7.0f, y * spacingY);
+                o = Instantiate(prefab, pos, Quaternion.identity) as GameObject;
+                ceil[count] = o;
+                o.GetComponent<Renderer>().transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), 180.0f); //.localScale = new Vector3(1.0f, -1.0f, 1.0f);
+                count++;
                // renderer.material.SetColor("_Emission", Color.white);
             }
         }
