@@ -11,6 +11,7 @@ public class Game : MonoBehaviour
     public Menu menu;
     public Character player_character;
     public Character[] model_characters;
+    public GameObject globe;
     public int counter = -1;
 
     private float readyTimer = 3.0f;
@@ -193,7 +194,7 @@ public class Game : MonoBehaviour
             for (j = 0; j < 10; j++)
             {
                 Color c;
-                if (j < n)
+                if (j < n - 1.0f)
                 {
                     c = new Color(0.7f, 0.7f, 0.0f, 1.0f);
                 }
@@ -213,7 +214,7 @@ public class Game : MonoBehaviour
             for (j = 0; j < 5; j++)
             {
                 Color c;
-                if (j < n)
+                if (j < n - 1.0f)
                 {
                     c = new Color(0.0f, 0.7f, 0.0f, 1.0f);
                 }
