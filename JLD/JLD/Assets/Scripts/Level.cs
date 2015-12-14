@@ -24,13 +24,17 @@ public class Level : MonoBehaviour
 
     public int current_move;
     public float timer;
-    public bool anim_set = false;
+	public bool anim_set = false;
+    public int score;
+    public int streak;
 
     //TODO load level here
 	public void Load()
     {
         current_move = 0;
-       
+        score = 0;
+        streak = 0;
+
         game.player_character.Reset();
         game.model_character.Reset();
 
@@ -67,12 +71,13 @@ public class Level : MonoBehaviour
         current_move++;
         if (current_move >= moves.Length)
         {
+            current_move--;
             game.LevelFinished();
         }
-        else
+        //else
         {
             timer = moves[current_move].time;
-            anim_set = false;
+            //TODO set moves for characters
             game.menu.SetMove(moves[current_move]);
         }
     }
