@@ -14,6 +14,7 @@ public class Intro : MonoBehaviour
     public Button quit;
 
     public float timer = 0;
+    float pulse_timer = 0.2f;
     
 	void Update ()
     {
@@ -26,6 +27,21 @@ public class Intro : MonoBehaviour
                 splash.gameObject.SetActive(true);
                 play.gameObject.SetActive(true);
                 quit.gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            if (pulse_timer > 0)
+            {
+                pulse_timer -= Time.deltaTime;
+                if (pulse_timer < 0)
+                {
+                    pulse_timer = 0.2f;
+                    if (play.GetComponent<RectTransform>().localScale.x > 1)
+                        play.GetComponent<RectTransform>().localScale = new Vector3(1.0f, 1.0f, 1.0f);
+                    else
+                        play.GetComponent<RectTransform>().localScale = new Vector3(1.1f, 1.1f, 1.1f);
+                }
             }
         }
 	}
