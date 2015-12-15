@@ -11,6 +11,7 @@ public class Intro : MonoBehaviour
     public Image logo;
     public Image splash;
     public Button play;
+    public Button quit;
 
     public float timer = 0;
     
@@ -24,6 +25,7 @@ public class Intro : MonoBehaviour
                 logo.gameObject.SetActive(false);
                 splash.gameObject.SetActive(true);
                 play.gameObject.SetActive(true);
+                quit.gameObject.SetActive(true);
             }
         }
 	}
@@ -31,5 +33,10 @@ public class Intro : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene("Game");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

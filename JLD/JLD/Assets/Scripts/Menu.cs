@@ -26,6 +26,9 @@ public class Menu : MonoBehaviour
     public Text text_wait;
     public Text text_prepare;
 
+    public Button pause_button;
+    public Canvas pause_menu;
+
     public Level.Move current_move;
 
     int good_button = 0;

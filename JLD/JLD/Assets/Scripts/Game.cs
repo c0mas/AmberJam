@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 /*
 * Main game class; put all stuff we want to access here
@@ -49,6 +50,8 @@ public class Game : MonoBehaviour
     public AudioClip[] songs;
     public int song_index = 0;
 
+    public bool paused = false;
+
     public enum GameState
     {
         WaitForStart,
@@ -67,6 +70,38 @@ public class Game : MonoBehaviour
 
         song_index = UnityEngine.Random.Range(0, songs.Length);
         music.clip = songs[song_index];
+    }
+
+    public void Pause(bool pause)
+    {
+        if (pause)
+        {
+            player_character.gameObject.GetComponent<Animator>().enabled = false;
+            for (int i = 0; i < model_characters.Length; i++)
+                model_characters[i].gameObject.GetComponent<Animator>().enabled = false;
+            menu.pause_button.gameObject.SetActive(false);
+            menu.pause_menu.gameObject.SetActive(true);
+        }
+        else
+        {
+            player_character.gameObject.GetComponent<Animator>().enabled = true;
+            for (int i = 0; i < model_characters.Length; i++)
+                model_characters[i].gameObject.GetComponent<Animator>().enabled = true;
+            menu.pause_button.gameObject.SetActive(true);
+            menu.pause_menu.gameObject.SetActive(false);
+        }
+
+        paused = pause;
+    }
+
+    public void ToMainMenu()
+    {
+        SceneManager.LoadScene("Intro");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 
     public void NegativeFeedback()
@@ -212,6 +247,9 @@ public class Game : MonoBehaviour
 
 	void Update ()
     {
+        if (paused)
+            return;
+
         lightCol[upDownC[colorS]] += Time.deltaTime * colorD * 3.0f;
         if (lightCol[upDownC[colorS]] < 0.0f || lightCol[upDownC[colorS]] > 1.0f)
         {
