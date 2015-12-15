@@ -46,6 +46,8 @@ public class Game : MonoBehaviour
     public int high_score = 0;
 
     public AudioSource music;
+    public AudioClip[] songs;
+    public int song_index = 0;
 
     public enum GameState
     {
@@ -62,6 +64,9 @@ public class Game : MonoBehaviour
     {
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 30;
+
+        song_index = UnityEngine.Random.Range(0, songs.Length);
+        music.clip = songs[song_index];
     }
 
     public void NegativeFeedback()
@@ -143,6 +148,12 @@ public class Game : MonoBehaviour
                     level.streak = 1;
 
                     menu.UpdateStreak(-1);
+
+                    int si = Random.Range(0, songs.Length);
+                    while (si == song_index)
+                        si = Random.Range(0, songs.Length);
+                    song_index = si;
+                    music.clip = songs[song_index];
 
                     music.Play();
                     break;

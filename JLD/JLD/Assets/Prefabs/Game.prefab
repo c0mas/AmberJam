@@ -15743,6 +15743,11 @@ MonoBehaviour:
   globeAx: {x: 0, y: 0, z: 0}
   high_score: 0
   music: {fileID: 0}
+  songs:
+  - {fileID: 8300000, guid: 80ee285e6564cf5439d3264f4134c70c, type: 3}
+  - {fileID: 8300000, guid: 1d39cfbd8795be144a2d26997c07372d, type: 3}
+  - {fileID: 8300000, guid: 81bc61c476250c04cacaa57a8b3b96a8, type: 3}
+  song_index: 0
   mState: 0
   prefab: {fileID: 190446, guid: 86b355e20346e6f41ba93e4916781351, type: 2}
   gridX: 5
