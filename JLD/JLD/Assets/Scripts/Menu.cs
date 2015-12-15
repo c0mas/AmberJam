@@ -41,6 +41,8 @@ public class Menu : MonoBehaviour
     public int score_multiplier = 1;
     public bool good_streak = false;
 
+    public GameObject perfect_feedbak;
+
     public float time;
 
 
@@ -74,12 +76,24 @@ public class Menu : MonoBehaviour
                     if (i != button_index)
                         buttons[i].gameObject.SetActive(false);
                 }
+
+                if (game.level.current_move == game.level.moves.Length - 1)
+                {
+                    perfect_feedbak.gameObject.SetActive(true);
+                }
             }
             else
             {
                 good_move = false;
                 buttons[button_index].image.color = new Color(1, 0, 0);
                 buttons[button_index].GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
+                for (int i = 0; i < buttons.Length; i++)
+                {
+                    if (i != button_index && i != good_button)
+                        buttons[i].gameObject.SetActive(false);
+                }
+                good_streak = false;
+                UpdateStreak(-1);
                 game.NegativeFeedback();
             }
         }
@@ -201,6 +215,7 @@ public class Menu : MonoBehaviour
         }
         scoreTxt.gameObject.SetActive(s);
         streakTxt.gameObject.SetActive(s);
+        perfect_feedbak.gameObject.SetActive(false);
     }
 
     public void ShowModel(bool s)
@@ -212,6 +227,7 @@ public class Menu : MonoBehaviour
 
         text_wait.gameObject.SetActive(s);
         text_prepare.gameObject.SetActive(false);
+        perfect_feedbak.gameObject.SetActive(false);
     }
 
     public void ShowStart(bool s)
@@ -222,6 +238,7 @@ public class Menu : MonoBehaviour
     public void ShowAgain(bool s)
     {
         playAgain.gameObject.SetActive(s);
+        perfect_feedbak.gameObject.SetActive(false);
     }
 
     public void ShowCounter(int id)
@@ -234,6 +251,7 @@ public class Menu : MonoBehaviour
             else
                 ttext[i].gameObject.SetActive(false);
         }
+        perfect_feedbak.gameObject.SetActive(false);
     }
 
     public void ShowFinish(bool s)
@@ -243,6 +261,7 @@ public class Menu : MonoBehaviour
 
         text_score.gameObject.SetActive(s);
         text_high_score.gameObject.SetActive(s);
+        perfect_feedbak.gameObject.SetActive(false);
     }
 
     public void PlayGame()
