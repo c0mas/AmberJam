@@ -12,6 +12,7 @@ public class Game : MonoBehaviour
     public Character player_character;
     public Character[] model_characters;
     public GameObject globe;
+    public Light light;
     public int counter = -1;
 
     private float readyTimer = 3.0f;
@@ -29,6 +30,10 @@ public class Game : MonoBehaviour
     float[] globeOff = {0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f};
     float[] globeDt = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };
     int[] globeSt = { 0, 0, 0, 0, 0, 0 };
+    float[] lightCol = { 1.0f, 0.0f, 0.0f };
+    int[] upDownC = { 1, 0 };
+    int colorS = 0;
+    float colorD = 1.0f;
 
     float failTimer = -1.0f;
 
@@ -196,6 +201,18 @@ public class Game : MonoBehaviour
 
 	void Update ()
     {
+        lightCol[upDownC[colorS]] += Time.deltaTime * colorD * 3.0f;
+        if (lightCol[upDownC[colorS]] < 0.0f || lightCol[upDownC[colorS]] > 1.0f)
+        {
+            upDownC[colorS]++;
+            upDownC[colorS] %= 3;
+            colorS++;
+            colorS %= 2;
+            colorD = -colorD;
+        }
+        light.color = new Color(lightCol[0], lightCol[1], lightCol[2]);
+
+
         switch (mState)
         {
             case GameState.GettingReady:
