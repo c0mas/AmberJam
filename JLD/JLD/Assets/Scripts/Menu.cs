@@ -90,7 +90,7 @@ public class Menu : MonoBehaviour
         {
             level.streak += streak;
         }
-        streakTxt.text = "Multiplier: " + level.streak.ToString();
+        streakTxt.text = "Combo: x" + level.streak.ToString();
     }
 
     public void UpdateTime(float dt)
