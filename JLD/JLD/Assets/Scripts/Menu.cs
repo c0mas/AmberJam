@@ -55,6 +55,7 @@ public class Menu : MonoBehaviour
             {
                 good_move = true;
                 buttons[button_index].image.color = new Color(0, 1, 0);
+                buttons[button_index].GetComponent<RectTransform>().localScale = new Vector3(1.2f, 1.2f, 1.2f);
                 if (timer < (game.press_time / 5))
                     score_multiplier = 1;
                 else if (timer < (game.press_time / 5) * 2)
@@ -65,11 +66,17 @@ public class Menu : MonoBehaviour
                     score_multiplier = 4;
                 else
                     score_multiplier = 5;
+                for (int i = 0; i < buttons.Length; i++)
+                {
+                    if (i != button_index)
+                        buttons[i].gameObject.SetActive(false);
+                }
             }
             else
             {
                 good_move = false;
                 buttons[button_index].image.color = new Color(1, 0, 0);
+                buttons[button_index].GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
                 game.NegativeFeedback();
             }
         }
@@ -106,6 +113,7 @@ public class Menu : MonoBehaviour
                 {
                     b.image.color = new Color(1, 1, 1);
                     b.gameObject.SetActive(true);
+                    b.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
                 }
             }
         }
