@@ -131,7 +131,7 @@ public class Game : MonoBehaviour
         }
         else
         {
-            if (max_moves < 10)
+            if (max_moves < 6)
             {
                 min_moves++;
                 max_moves++;
