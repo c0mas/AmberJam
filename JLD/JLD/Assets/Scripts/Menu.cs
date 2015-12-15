@@ -77,7 +77,7 @@ public class Menu : MonoBehaviour
                         buttons[i].gameObject.SetActive(false);
                 }
 
-                if (game.level.current_move == game.level.moves.Length - 1)
+                if ((game.level.current_move == game.level.moves.Length - 1) && good_streak)
                 {
                     perfect_feedbak.gameObject.SetActive(true);
                 }

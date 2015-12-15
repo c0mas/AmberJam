@@ -81,6 +81,7 @@ public class Game : MonoBehaviour
                 model_characters[i].gameObject.GetComponent<Animator>().enabled = false;
             menu.pause_button.gameObject.SetActive(false);
             menu.pause_menu.gameObject.SetActive(true);
+            music.Pause();
         }
         else
         {
@@ -89,6 +90,7 @@ public class Game : MonoBehaviour
                 model_characters[i].gameObject.GetComponent<Animator>().enabled = true;
             menu.pause_button.gameObject.SetActive(true);
             menu.pause_menu.gameObject.SetActive(false);
+            music.UnPause();
         }
 
         paused = pause;
