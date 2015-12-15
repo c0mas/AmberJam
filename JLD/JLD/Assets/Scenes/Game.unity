@@ -419,6 +419,30 @@ Prefab:
       propertyPath: music
       value: 
       objectReference: {fileID: 1385825713}
+    - target: {fileID: 194220, guid: d93bcc6709909fa468cc8e2c46553956, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22459098, guid: d93bcc6709909fa468cc8e2c46553956, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -113
+      objectReference: {fileID: 0}
+    - target: {fileID: 22459098, guid: d93bcc6709909fa468cc8e2c46553956, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461562, guid: d93bcc6709909fa468cc8e2c46553956, type: 2}
+      propertyPath: m_Color.r
+      value: 0.94482756
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461562, guid: d93bcc6709909fa468cc8e2c46553956, type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461562, guid: d93bcc6709909fa468cc8e2c46553956, type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d93bcc6709909fa468cc8e2c46553956, type: 2}
   m_IsPrefabParent: 0
