@@ -609,6 +609,7 @@ MonoBehaviour:
   play: {fileID: 230821766}
   quit: {fileID: 1684057274}
   timer: 0
+  music: {fileID: 1753419824}
 --- !u!4 &1418509558
 Transform:
   m_ObjectHideFlags: 0
@@ -906,7 +907,7 @@ GameObject:
   - 4: {fileID: 1753419825}
   - 82: {fileID: 1753419824}
   m_Layer: 0
-  m_Name: Salt N Pepa-Push It (instrumental (mp3cut.net) (1)
+  m_Name: music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -921,8 +922,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5e9bea41382b76a4bbcc5dbabe6f78e0, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 51989e3bca1f93a43a2a4fa0cd05d1c2, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1

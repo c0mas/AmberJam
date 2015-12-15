@@ -15,8 +15,10 @@ public class Intro : MonoBehaviour
 
     public float timer = 0;
     float pulse_timer = 0.2f;
-    
-	void Update ()
+
+    public AudioSource music;
+
+    void Update ()
     {
 	    if (timer < 3)
         {
@@ -27,6 +29,8 @@ public class Intro : MonoBehaviour
                 splash.gameObject.SetActive(true);
                 play.gameObject.SetActive(true);
                 quit.gameObject.SetActive(true);
+
+                music.Play();
             }
         }
         else
